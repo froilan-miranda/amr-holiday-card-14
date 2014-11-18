@@ -16,6 +16,8 @@
         resources = [
         ],
         scripts = [
+            js+"scroll_activated.js",
+            "https://code.jquery.com/jquery-1.11.1.min.js"
         ],
         symbols = {
             "stage": {
@@ -202,66 +204,42 @@
                 timeline: {
                     duration: 30000,
                     autoPlay: true,
+                    labels: {
+                        "screen begin": 100,
+                        "screen_cr": 5123,
+                        "screen_st": 10000,
+                        "screen_lc": 12250
+                    },
                     data: [
                         [
-                            "eid159",
-                            "left",
-                            5186,
-                            2463,
+                            "eid33",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${mg_st_waterCopy}",
-                            '902px',
-                            '-79px'
+                            "${bg_mountain}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid160",
-                            "left",
-                            7649,
-                            2287,
+                            "eid34",
+                            "display",
+                            2587,
+                            0,
                             "linear",
-                            "${mg_st_waterCopy}",
-                            '-79px',
-                            '-901px'
+                            "${bg_mountain}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid129",
-                            "left",
-                            9354,
-                            646,
+                            "eid37",
+                            "display",
+                            7337,
+                            0,
                             "linear",
-                            "${mg_st_green_hill_2}",
-                            '901px',
-                            '701px'
-                        ],
-                        [
-                            "eid127",
-                            "left",
-                            10000,
-                            2250,
-                            "linear",
-                            "${mg_st_green_hill_2}",
-                            '701px',
-                            '-238px'
-                        ],
-                        [
-                            "eid153",
-                            "left",
-                            1250,
-                            2119,
-                            "linear",
-                            "${mg_cr_green_hill_3}",
-                            '907px',
-                            '520px'
-                        ],
-                        [
-                            "eid156",
-                            "left",
-                            3369,
-                            2823,
-                            "linear",
-                            "${mg_cr_green_hill_3}",
-                            '520px',
-                            '-415px'
+                            "${bg_mountain}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid62",
@@ -334,32 +312,32 @@
                             'none'
                         ],
                         [
-                            "eid33",
+                            "eid41",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${bg_mountain}",
+                            "${bg_mountain_2}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid34",
+                            "eid38",
                             "display",
-                            2587,
+                            7414,
                             0,
                             "linear",
-                            "${bg_mountain}",
+                            "${bg_mountain_2}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid37",
+                            "eid44",
                             "display",
-                            7337,
+                            12357,
                             0,
                             "linear",
-                            "${bg_mountain}",
+                            "${bg_mountain_2}",
                             'block',
                             'none'
                         ],
@@ -394,14 +372,24 @@
                             '-333px'
                         ],
                         [
-                            "eid28",
+                            "eid153",
                             "left",
-                            0,
-                            5000,
+                            1250,
+                            2119,
                             "linear",
-                            "${bg_city}",
-                            '-49px',
-                            '-580px'
+                            "${mg_cr_green_hill_3}",
+                            '907px',
+                            '520px'
+                        ],
+                        [
+                            "eid156",
+                            "left",
+                            3369,
+                            2823,
+                            "linear",
+                            "${mg_cr_green_hill_3}",
+                            '520px',
+                            '-415px'
                         ],
                         [
                             "eid103",
@@ -424,24 +412,14 @@
                             '-265px'
                         ],
                         [
-                            "eid88",
+                            "eid136",
                             "left",
-                            4250,
-                            880,
+                            12000,
+                            250,
                             "linear",
-                            "${mg_cr_water_hills2}",
-                            '913px',
-                            '-173px'
-                        ],
-                        [
-                            "eid86",
-                            "left",
-                            5130,
-                            1133,
-                            "linear",
-                            "${mg_cr_water_hills2}",
-                            '-173px',
-                            '-1170px'
+                            "${mg_lc_rock_3}",
+                            '900px',
+                            '556px'
                         ],
                         [
                             "eid142",
@@ -454,6 +432,26 @@
                             '-352px'
                         ],
                         [
+                            "eid159",
+                            "left",
+                            5186,
+                            2463,
+                            "linear",
+                            "${mg_st_waterCopy}",
+                            '902px',
+                            '-79px'
+                        ],
+                        [
+                            "eid160",
+                            "left",
+                            7649,
+                            2287,
+                            "linear",
+                            "${mg_st_waterCopy}",
+                            '-79px',
+                            '-901px'
+                        ],
+                        [
                             "eid138",
                             "left",
                             11817,
@@ -462,26 +460,6 @@
                             "${mg_lc_rock_2}",
                             '905px',
                             '548px'
-                        ],
-                        [
-                            "eid32",
-                            "left",
-                            2587,
-                            2375,
-                            "linear",
-                            "${bg_mountain}",
-                            '900px',
-                            '436px'
-                        ],
-                        [
-                            "eid36",
-                            "left",
-                            4962,
-                            2375,
-                            "linear",
-                            "${bg_mountain}",
-                            '436px',
-                            '-467px'
                         ],
                         [
                             "eid105",
@@ -502,6 +480,26 @@
                             "${fg_st_sand_1}",
                             '-276px',
                             '-487px'
+                        ],
+                        [
+                            "eid32",
+                            "left",
+                            2587,
+                            2536,
+                            "linear",
+                            "${bg_mountain}",
+                            '900px',
+                            '436px'
+                        ],
+                        [
+                            "eid36",
+                            "left",
+                            5123,
+                            2214,
+                            "linear",
+                            "${bg_mountain}",
+                            '436px',
+                            '-467px'
                         ],
                         [
                             "eid61",
@@ -594,14 +592,24 @@
                             '-906px'
                         ],
                         [
-                            "eid136",
+                            "eid129",
                             "left",
-                            12000,
-                            250,
+                            9354,
+                            646,
                             "linear",
-                            "${mg_lc_rock_3}",
-                            '900px',
-                            '556px'
+                            "${mg_st_green_hill_2}",
+                            '901px',
+                            '701px'
+                        ],
+                        [
+                            "eid127",
+                            "left",
+                            10000,
+                            2250,
+                            "linear",
+                            "${mg_st_green_hill_2}",
+                            '701px',
+                            '-238px'
                         ],
                         [
                             "eid89",
@@ -624,34 +632,34 @@
                             '-1170px'
                         ],
                         [
-                            "eid41",
-                            "display",
+                            "eid28",
+                            "left",
                             0,
-                            0,
+                            5000,
                             "linear",
-                            "${bg_mountain_2}",
-                            'none',
-                            'none'
+                            "${bg_city}",
+                            '-49px',
+                            '-580px'
                         ],
                         [
-                            "eid38",
-                            "display",
-                            7414,
-                            0,
+                            "eid88",
+                            "left",
+                            4250,
+                            880,
                             "linear",
-                            "${bg_mountain_2}",
-                            'none',
-                            'block'
+                            "${mg_cr_water_hills2}",
+                            '913px',
+                            '-173px'
                         ],
                         [
-                            "eid44",
-                            "display",
-                            12357,
-                            0,
+                            "eid86",
+                            "left",
+                            5130,
+                            1133,
                             "linear",
-                            "${bg_mountain_2}",
-                            'block',
-                            'none'
+                            "${mg_cr_water_hills2}",
+                            '-173px',
+                            '-1170px'
                         ]
                     ]
                 }
@@ -708,21 +716,21 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '692px', '400px', 'auto', 'auto'],
-                            id: 'bg_sky_left2',
                             type: 'image',
+                            id: 'bg_sky_left2',
+                            rect: ['0px', '0px', '692px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_left.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['691px', '0', '692px', '400px', 'auto', 'auto'],
-                            id: 'bg_sky_center2',
                             type: 'image',
+                            id: 'bg_sky_center2',
+                            rect: ['691px', '0', '692px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_center.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['1382px', '0', '692px', '400px', 'auto', 'auto'],
-                            id: 'bg_sky_right',
                             type: 'image',
+                            id: 'bg_sky_right',
+                            rect: ['1382px', '0', '692px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_right.jpg', '0px', '0px']
                         }
                     ],
