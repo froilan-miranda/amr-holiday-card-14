@@ -51,6 +51,40 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${bttn_next}", "touchstart", function(sym, e) {
+         // insert code to be run when a user touches the object (for touch devices only)
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_next}", "click", function(sym, e) {
+         // insert code for mouse click here
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_prev2}", "touchstart", function(sym, e) {
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_prev}", "touchstart", function(sym, e) {
+         // insert code to be run when a user touches the object (for touch devices only)
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_prev}", "click", function(sym, e) {
+         // insert code for mouse click here
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -69,5 +103,28 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
    })("bg_sky");
    //Edge symbol end:'bg_sky'
+
+   //=========================================================
+   
+   //Edge symbol: 'bttn_next'
+   (function(symbolName) {   
+   
+   })("bttn_next");
+   //Edge symbol end:'bttn_next'
+
+   //=========================================================
+   
+   //Edge symbol: 'bttn_prev'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${bttn_prev}", "touchstart", function(sym, e) {
+         // insert code to be run when a user touches the object (for touch devices only)
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
+   })("bttn_prev");
+   //Edge symbol end:'bttn_prev'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-35607789");
