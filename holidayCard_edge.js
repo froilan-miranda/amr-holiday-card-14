@@ -205,14 +205,43 @@
                             symbolName: 'bttn_next',
                             display: 'block',
                             type: 'rect',
-                            rect: ['845', '417', '12', '16', 'auto', 'auto']
+                            rect: ['845', '417', '12', '16', 'auto', 'auto'],
+                            userClass: "touchElement"
                         },
                         {
                             id: 'bttn_prev',
                             symbolName: 'bttn_prev',
                             display: 'none',
                             type: 'rect',
-                            rect: ['822', '417', '12', '16', 'auto', 'auto']
+                            rect: ['822', '417', '12', '16', 'auto', 'auto'],
+                            userClass: "touchElement"
+                        },
+                        {
+                            id: 'btn_swipe_left',
+                            display: 'block',
+                            type: 'rect',
+                            rect: ['103px', '0px', '692px', '400px', 'auto', 'auto'],
+                            fill: ["rgba(192,192,192,0.00)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"],
+                            userClass: "touchElement"
+                        },
+                        {
+                            id: 'btn_swipe_right',
+                            display: 'none',
+                            type: 'rect',
+                            rect: ['103px', '0px', '692px', '400px', 'auto', 'auto'],
+                            fill: ["rgba(192,192,192,0.00)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"],
+                            userClass: "touchElement"
+                        },
+                        {
+                            id: 'btn_swipe_both',
+                            display: 'none',
+                            type: 'rect',
+                            rect: ['103px', '0px', '692px', '400px', 'auto', 'auto'],
+                            fill: ["rgba(192,192,192,0.00)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"],
+                            userClass: "touchElement"
                         }
                     ],
                     style: {
@@ -235,6 +264,46 @@
                         "screen_lc": 12250
                     },
                     data: [
+                        [
+                            "eid49",
+                            "left",
+                            9936,
+                            2314,
+                            "linear",
+                            "${bg_ocean}",
+                            '900px',
+                            '4px'
+                        ],
+                        [
+                            "eid180",
+                            "display",
+                            153,
+                            0,
+                            "linear",
+                            "${btn_swipe_both}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid181",
+                            "display",
+                            9936,
+                            0,
+                            "linear",
+                            "${btn_swipe_both}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid28",
+                            "left",
+                            0,
+                            5000,
+                            "linear",
+                            "${bg_city}",
+                            '-49px',
+                            '-580px'
+                        ],
                         [
                             "eid33",
                             "display",
@@ -264,6 +333,36 @@
                             "${bg_mountain}",
                             'block',
                             'none'
+                        ],
+                        [
+                            "eid129",
+                            "left",
+                            9354,
+                            646,
+                            "linear",
+                            "${mg_st_green_hill_2}",
+                            '901px',
+                            '701px'
+                        ],
+                        [
+                            "eid127",
+                            "left",
+                            10000,
+                            2250,
+                            "linear",
+                            "${mg_st_green_hill_2}",
+                            '701px',
+                            '-238px'
+                        ],
+                        [
+                            "eid61",
+                            "left",
+                            0,
+                            2000,
+                            "linear",
+                            "${fg_city_side}",
+                            '580px',
+                            '-427px'
                         ],
                         [
                             "eid167",
@@ -326,44 +425,14 @@
                             'none'
                         ],
                         [
-                            "eid62",
-                            "left",
-                            799,
-                            1951,
+                            "eid179",
+                            "display",
+                            153,
+                            0,
                             "linear",
-                            "${fg_city_sideCopy}",
-                            '917px',
-                            '-427px'
-                        ],
-                        [
-                            "eid49",
-                            "left",
-                            9936,
-                            2314,
-                            "linear",
-                            "${bg_ocean}",
-                            '900px',
-                            '4px'
-                        ],
-                        [
-                            "eid129",
-                            "left",
-                            9354,
-                            646,
-                            "linear",
-                            "${mg_st_green_hill_2}",
-                            '901px',
-                            '701px'
-                        ],
-                        [
-                            "eid127",
-                            "left",
-                            10000,
-                            2250,
-                            "linear",
-                            "${mg_st_green_hill_2}",
-                            '701px',
-                            '-238px'
+                            "${btn_swipe_left}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid82",
@@ -416,24 +485,24 @@
                             'none'
                         ],
                         [
-                            "eid88",
+                            "eid94",
                             "left",
-                            4250,
-                            880,
+                            7500,
+                            2463,
                             "linear",
-                            "${mg_cr_water_hills2}",
-                            '913px',
-                            '-173px'
+                            "${mg_st_water}",
+                            '902px',
+                            '-79px'
                         ],
                         [
-                            "eid86",
+                            "eid113",
                             "left",
-                            5130,
-                            1133,
+                            9963,
+                            2287,
                             "linear",
-                            "${mg_cr_water_hills2}",
-                            '-173px',
-                            '-1170px'
+                            "${mg_st_water}",
+                            '-79px',
+                            '-901px'
                         ],
                         [
                             "eid14",
@@ -486,24 +555,54 @@
                             '-415px'
                         ],
                         [
-                            "eid28",
-                            "left",
+                            "eid184",
+                            "display",
                             0,
-                            5000,
+                            0,
                             "linear",
-                            "${bg_city}",
-                            '-49px',
-                            '-580px'
+                            "${btn_swipe_right}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid136",
-                            "left",
-                            12000,
-                            250,
+                            "eid182",
+                            "display",
+                            153,
+                            0,
                             "linear",
-                            "${mg_lc_rock_3}",
+                            "${btn_swipe_right}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid183",
+                            "display",
+                            9936,
+                            0,
+                            "linear",
+                            "${btn_swipe_right}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid32",
+                            "left",
+                            2587,
+                            2536,
+                            "linear",
+                            "${bg_mountain}",
                             '900px',
-                            '556px'
+                            '436px'
+                        ],
+                        [
+                            "eid36",
+                            "left",
+                            5123,
+                            2214,
+                            "linear",
+                            "${bg_mountain}",
+                            '436px',
+                            '-467px'
                         ],
                         [
                             "eid142",
@@ -616,54 +715,44 @@
                             '-487px'
                         ],
                         [
-                            "eid32",
+                            "eid103",
                             "left",
-                            2587,
-                            2536,
+                            9542,
+                            458,
                             "linear",
-                            "${bg_mountain}",
+                            "${fg_st_sand_2}",
+                            '929px',
+                            '635px'
+                        ],
+                        [
+                            "eid111",
+                            "left",
+                            10000,
+                            1500,
+                            "linear",
+                            "${fg_st_sand_2}",
+                            '635px',
+                            '-265px'
+                        ],
+                        [
+                            "eid136",
+                            "left",
+                            12000,
+                            250,
+                            "linear",
+                            "${mg_lc_rock_3}",
                             '900px',
-                            '436px'
+                            '556px'
                         ],
                         [
-                            "eid36",
+                            "eid62",
                             "left",
-                            5123,
-                            2214,
+                            799,
+                            1951,
                             "linear",
-                            "${bg_mountain}",
-                            '436px',
-                            '-467px'
-                        ],
-                        [
-                            "eid61",
-                            "left",
-                            0,
-                            2000,
-                            "linear",
-                            "${fg_city_side}",
-                            '580px',
+                            "${fg_city_sideCopy}",
+                            '917px',
                             '-427px'
-                        ],
-                        [
-                            "eid94",
-                            "left",
-                            7500,
-                            2463,
-                            "linear",
-                            "${mg_st_water}",
-                            '902px',
-                            '-79px'
-                        ],
-                        [
-                            "eid113",
-                            "left",
-                            9963,
-                            2287,
-                            "linear",
-                            "${mg_st_water}",
-                            '-79px',
-                            '-901px'
                         ],
                         [
                             "eid66",
@@ -756,24 +845,24 @@
                             '-1170px'
                         ],
                         [
-                            "eid103",
+                            "eid88",
                             "left",
-                            9542,
-                            458,
+                            4250,
+                            880,
                             "linear",
-                            "${fg_st_sand_2}",
-                            '929px',
-                            '635px'
+                            "${mg_cr_water_hills2}",
+                            '913px',
+                            '-173px'
                         ],
                         [
-                            "eid111",
+                            "eid86",
                             "left",
-                            10000,
-                            1500,
+                            5130,
+                            1133,
                             "linear",
-                            "${fg_st_sand_2}",
-                            '635px',
-                            '-265px'
+                            "${mg_cr_water_hills2}",
+                            '-173px',
+                            '-1170px'
                         ],
                         [
                             "eid41",

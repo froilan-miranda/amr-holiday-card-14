@@ -85,6 +85,33 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${btn_swipe_left}", "swipeleft", function(sym, e) {
+         // insert code to be run when a swipeleft event occurs on an element
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${btn_swipe_both}", "swipeleft", function(sym, e) {
+         // insert code to be run when a swipeleft event occurs on an element
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${btn_swipe_both}", "swiperight", function(sym, e) {
+         // insert code to be run when a swiperight event occurs on an element
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${btn_swipe_right}", "swiperight", function(sym, e) {
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
