@@ -17,8 +17,7 @@
         ],
         scripts = [
             js+"scroll_activated.js",
-            "https://code.jquery.com/jquery-1.11.1.min.js",
-            js+"modernizr.mobiletouch.js"
+            "https://code.jquery.com/jquery-1.11.1.min.js"
         ],
         symbols = {
             "stage": {
@@ -173,12 +172,6 @@
                             fill: ["rgba(0,0,0,0)",im+"fg_city_side.png",'0px','0px']
                         },
                         {
-                            id: 'fg-cr-greenhill',
-                            type: 'image',
-                            rect: ['-352px', '320px', '345px', '82px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"fg-cr-greenhill.png",'0px','0px']
-                        },
-                        {
                             id: 'bg_bar_grey',
                             type: 'image',
                             rect: ['0px', '400px', '900px', '50px', 'auto', 'auto'],
@@ -188,60 +181,14 @@
                         {
                             id: 'gr_plane',
                             type: 'image',
-                            rect: ['228px', '91px', '68px', '61px', 'auto', 'auto'],
+                            rect: ['228px', '124px', '68px', '61px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"gr_plane.png",'0px','0px']
                         },
                         {
-                            id: 'text_scroll',
-                            type: 'text',
-                            rect: ['202px', '188px', 'auto', 'auto', 'auto', 'auto'],
-                            text: "(Click or scroll to start)",
-                            align: "left",
-                            userClass: "scroll_message",
-                            font: ['Verdana, Geneva, sans-serif', [10, "px"], "rgba(255,255,255,1.00)", "400", "none solid rgb(0, 0, 0)", "normal", "break-word", "nowrap"]
-                        },
-                        {
-                            id: 'bttn_next',
-                            symbolName: 'bttn_next',
-                            display: 'block',
-                            type: 'rect',
-                            rect: ['845', '417', '12', '16', 'auto', 'auto'],
-                            userClass: "touchElement"
-                        },
-                        {
-                            id: 'bttn_prev',
-                            symbolName: 'bttn_prev',
-                            display: 'none',
-                            type: 'rect',
-                            rect: ['822', '417', '12', '16', 'auto', 'auto'],
-                            userClass: "touchElement"
-                        },
-                        {
-                            id: 'btn_swipe_left',
-                            display: 'block',
-                            type: 'rect',
-                            rect: ['103px', '0px', '692px', '400px', 'auto', 'auto'],
-                            fill: ["rgba(192,192,192,0.00)"],
-                            stroke: [0,"rgba(0,0,0,1)","none"],
-                            userClass: "touchElement"
-                        },
-                        {
-                            id: 'btn_swipe_right',
-                            display: 'none',
-                            type: 'rect',
-                            rect: ['103px', '0px', '692px', '400px', 'auto', 'auto'],
-                            fill: ["rgba(192,192,192,0.00)"],
-                            stroke: [0,"rgba(0,0,0,1)","none"],
-                            userClass: "touchElement"
-                        },
-                        {
-                            id: 'btn_swipe_both',
-                            display: 'none',
-                            type: 'rect',
-                            rect: ['103px', '0px', '692px', '400px', 'auto', 'auto'],
-                            fill: ["rgba(192,192,192,0.00)"],
-                            stroke: [0,"rgba(0,0,0,1)","none"],
-                            userClass: "touchElement"
+                            id: 'fg-cr-greenhill',
+                            type: 'image',
+                            rect: ['-352px', '320px', '345px', '82px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"fg-cr-greenhill.png",'0px','0px']
                         }
                     ],
                     style: {
@@ -264,46 +211,6 @@
                         "screen_lc": 12250
                     },
                     data: [
-                        [
-                            "eid49",
-                            "left",
-                            9936,
-                            2314,
-                            "linear",
-                            "${bg_ocean}",
-                            '900px',
-                            '4px'
-                        ],
-                        [
-                            "eid180",
-                            "display",
-                            153,
-                            0,
-                            "linear",
-                            "${btn_swipe_both}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid181",
-                            "display",
-                            9936,
-                            0,
-                            "linear",
-                            "${btn_swipe_both}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid28",
-                            "left",
-                            0,
-                            5000,
-                            "linear",
-                            "${bg_city}",
-                            '-49px',
-                            '-580px'
-                        ],
                         [
                             "eid33",
                             "display",
@@ -335,104 +242,24 @@
                             'none'
                         ],
                         [
-                            "eid129",
+                            "eid62",
                             "left",
-                            9354,
-                            646,
+                            799,
+                            1951,
                             "linear",
-                            "${mg_st_green_hill_2}",
-                            '901px',
-                            '701px'
-                        ],
-                        [
-                            "eid127",
-                            "left",
-                            10000,
-                            2250,
-                            "linear",
-                            "${mg_st_green_hill_2}",
-                            '701px',
-                            '-238px'
-                        ],
-                        [
-                            "eid61",
-                            "left",
-                            0,
-                            2000,
-                            "linear",
-                            "${fg_city_side}",
-                            '580px',
+                            "${fg_city_sideCopy}",
+                            '917px',
                             '-427px'
                         ],
                         [
-                            "eid167",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${bttn_next}",
-                            'block',
-                            'block'
-                        ],
-                        [
-                            "eid169",
-                            "display",
-                            153,
-                            0,
-                            "linear",
-                            "${bttn_next}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid174",
-                            "display",
-                            5046,
-                            0,
-                            "linear",
-                            "${bttn_next}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid176",
-                            "display",
-                            5186,
-                            0,
-                            "linear",
-                            "${bttn_next}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid172",
-                            "display",
+                            "eid49",
+                            "left",
                             9936,
-                            0,
+                            2314,
                             "linear",
-                            "${bttn_next}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid178",
-                            "display",
-                            10053,
-                            0,
-                            "linear",
-                            "${bttn_next}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid179",
-                            "display",
-                            153,
-                            0,
-                            "linear",
-                            "${btn_swipe_left}",
-                            'block',
-                            'none'
+                            "${bg_ocean}",
+                            '900px',
+                            '4px'
                         ],
                         [
                             "eid82",
@@ -485,45 +312,34 @@
                             'none'
                         ],
                         [
-<<<<<<< HEAD
-                            "eid88",
-                            "left",
-                            4250,
-                            880,
+                            "eid41",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${mg_cr_water_hills2}",
-                            '913px',
-                            '-173px'
+                            "${bg_mountain_2}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid86",
-                            "left",
-                            5130,
-                            1133,
+                            "eid38",
+                            "display",
+                            7414,
+                            0,
                             "linear",
-                            "${mg_cr_water_hills2}",
-                            '-173px',
-                            '-1170px'
-=======
-                            "eid94",
-                            "left",
-                            7500,
-                            2463,
-                            "linear",
-                            "${mg_st_water}",
-                            '902px',
-                            '-79px'
+                            "${bg_mountain_2}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid113",
-                            "left",
-                            9963,
-                            2287,
+                            "eid44",
+                            "display",
+                            12357,
+                            0,
                             "linear",
-                            "${mg_st_water}",
-                            '-79px',
-                            '-901px'
->>>>>>> detecting-touch-devices
+                            "${bg_mountain_2}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid14",
@@ -576,65 +392,34 @@
                             '-415px'
                         ],
                         [
-<<<<<<< HEAD
-                            "eid28",
+                            "eid103",
                             "left",
-                            0,
-                            5000,
+                            9542,
+                            458,
                             "linear",
-                            "${bg_city}",
-                            '-49px',
-                            '-580px'
-=======
-                            "eid184",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${btn_swipe_right}",
-                            'none',
-                            'none'
+                            "${fg_st_sand_2}",
+                            '929px',
+                            '635px'
                         ],
                         [
-                            "eid182",
-                            "display",
-                            153,
-                            0,
-                            "linear",
-                            "${btn_swipe_right}",
-                            'none',
-                            'none'
->>>>>>> detecting-touch-devices
-                        ],
-                        [
-                            "eid183",
-                            "display",
-                            9936,
-                            0,
-                            "linear",
-                            "${btn_swipe_right}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid32",
+                            "eid111",
                             "left",
-                            2587,
-                            2536,
+                            10000,
+                            1500,
                             "linear",
-                            "${bg_mountain}",
+                            "${fg_st_sand_2}",
+                            '635px',
+                            '-265px'
+                        ],
+                        [
+                            "eid136",
+                            "left",
+                            12000,
+                            250,
+                            "linear",
+                            "${mg_lc_rock_3}",
                             '900px',
-                            '436px'
-                        ],
-                        [
-                            "eid36",
-                            "left",
-                            5123,
-                            2214,
-                            "linear",
-                            "${bg_mountain}",
-                            '436px',
-                            '-467px'
+                            '556px'
                         ],
                         [
                             "eid142",
@@ -667,85 +452,14 @@
                             '-901px'
                         ],
                         [
-<<<<<<< HEAD
-                            "eid129",
+                            "eid138",
                             "left",
-                            9354,
-                            646,
+                            11817,
+                            433,
                             "linear",
-                            "${mg_st_green_hill_2}",
-                            '901px',
-                            '701px'
-                        ],
-                        [
-                            "eid127",
-                            "left",
-                            10000,
-                            2250,
-                            "linear",
-                            "${mg_st_green_hill_2}",
-                            '701px',
-                            '-238px'
-=======
-                            "eid166",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${bttn_prev}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid173",
-                            "display",
-                            5046,
-                            0,
-                            "linear",
-                            "${bttn_prev}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid175",
-                            "display",
-                            5186,
-                            0,
-                            "linear",
-                            "${bttn_prev}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid171",
-                            "display",
-                            9936,
-                            0,
-                            "linear",
-                            "${bttn_prev}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid177",
-                            "display",
-                            10053,
-                            0,
-                            "linear",
-                            "${bttn_prev}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid170",
-                            "display",
-                            12209,
-                            0,
-                            "linear",
-                            "${bttn_prev}",
-                            'none',
-                            'block'
->>>>>>> detecting-touch-devices
+                            "${mg_lc_rock_2}",
+                            '905px',
+                            '548px'
                         ],
                         [
                             "eid105",
@@ -768,44 +482,54 @@
                             '-487px'
                         ],
                         [
-                            "eid103",
+                            "eid32",
                             "left",
-                            9542,
-                            458,
+                            2587,
+                            2536,
                             "linear",
-                            "${fg_st_sand_2}",
-                            '929px',
-                            '635px'
-                        ],
-                        [
-                            "eid111",
-                            "left",
-                            10000,
-                            1500,
-                            "linear",
-                            "${fg_st_sand_2}",
-                            '635px',
-                            '-265px'
-                        ],
-                        [
-                            "eid136",
-                            "left",
-                            12000,
-                            250,
-                            "linear",
-                            "${mg_lc_rock_3}",
+                            "${bg_mountain}",
                             '900px',
-                            '556px'
+                            '436px'
                         ],
                         [
-                            "eid62",
+                            "eid36",
                             "left",
-                            799,
-                            1951,
+                            5123,
+                            2214,
                             "linear",
-                            "${fg_city_sideCopy}",
-                            '917px',
+                            "${bg_mountain}",
+                            '436px',
+                            '-467px'
+                        ],
+                        [
+                            "eid61",
+                            "left",
+                            0,
+                            2000,
+                            "linear",
+                            "${fg_city_side}",
+                            '580px',
                             '-427px'
+                        ],
+                        [
+                            "eid94",
+                            "left",
+                            7500,
+                            2463,
+                            "linear",
+                            "${mg_st_water}",
+                            '902px',
+                            '-79px'
+                        ],
+                        [
+                            "eid113",
+                            "left",
+                            9963,
+                            2287,
+                            "linear",
+                            "${mg_st_water}",
+                            '-79px',
+                            '-901px'
                         ],
                         [
                             "eid66",
@@ -868,14 +592,24 @@
                             '-906px'
                         ],
                         [
-                            "eid138",
+                            "eid129",
                             "left",
-                            11817,
-                            433,
+                            9354,
+                            646,
                             "linear",
-                            "${mg_lc_rock_2}",
-                            '905px',
-                            '548px'
+                            "${mg_st_green_hill_2}",
+                            '901px',
+                            '701px'
+                        ],
+                        [
+                            "eid127",
+                            "left",
+                            10000,
+                            2250,
+                            "linear",
+                            "${mg_st_green_hill_2}",
+                            '701px',
+                            '-238px'
                         ],
                         [
                             "eid89",
@@ -898,71 +632,34 @@
                             '-1170px'
                         ],
                         [
-<<<<<<< HEAD
-                            "eid103",
+                            "eid28",
                             "left",
-                            9542,
-                            458,
+                            0,
+                            5000,
                             "linear",
-                            "${fg_st_sand_2}",
-                            '929px',
-                            '635px'
+                            "${bg_city}",
+                            '-49px',
+                            '-580px'
                         ],
                         [
-                            "eid111",
-=======
                             "eid88",
->>>>>>> detecting-touch-devices
                             "left",
-                            10000,
-                            1500,
+                            4250,
+                            880,
                             "linear",
-                            "${fg_st_sand_2}",
-                            '635px',
-                            '-265px'
+                            "${mg_cr_water_hills2}",
+                            '913px',
+                            '-173px'
                         ],
                         [
-                            "eid41",
-                            "display",
-                            0,
-                            0,
+                            "eid86",
+                            "left",
+                            5130,
+                            1133,
                             "linear",
-<<<<<<< HEAD
-=======
                             "${mg_cr_water_hills2}",
                             '-173px',
                             '-1170px'
-                        ],
-                        [
-                            "eid41",
-                            "display",
-                            0,
-                            0,
-                            "linear",
->>>>>>> detecting-touch-devices
-                            "${bg_mountain_2}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid38",
-                            "display",
-                            7414,
-                            0,
-                            "linear",
-                            "${bg_mountain_2}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid44",
-                            "display",
-                            12357,
-                            0,
-                            "linear",
-                            "${bg_mountain_2}",
-                            'block',
-                            'none'
                         ]
                     ]
                 }
@@ -1019,90 +716,27 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '692px', '400px', 'auto', 'auto'],
-                            id: 'bg_sky_left2',
                             type: 'image',
+                            id: 'bg_sky_left2',
+                            rect: ['0px', '0px', '692px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_left.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['691px', '0', '692px', '400px', 'auto', 'auto'],
-                            id: 'bg_sky_center2',
                             type: 'image',
+                            id: 'bg_sky_center2',
+                            rect: ['691px', '0', '692px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_center.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['1382px', '0', '692px', '400px', 'auto', 'auto'],
-                            id: 'bg_sky_right',
                             type: 'image',
+                            id: 'bg_sky_right',
+                            rect: ['1382px', '0', '692px', '400px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_right.jpg', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
                             rect: [null, null, '692px', '400px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "bttn_next": {
-                version: "5.0.0",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.0.375",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            id: 'bttn_next',
-                            type: 'image',
-                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/bttn_next.png', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '12px', '16px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "bttn_prev": {
-                version: "5.0.0",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.0.375",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
-                            overflow: 'visible',
-                            id: 'bttn_prev',
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/bttn_prev.png', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '12px', '16px']
                         }
                     }
                 },
