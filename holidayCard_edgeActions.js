@@ -23,7 +23,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 100, function(sym, e) {
          // insert code here
-         
          sym.stop();
 
       });
@@ -111,6 +110,30 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${bttn_fly}", "click", function(sym, e) {
+         // insert code for mouse click here
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_fly}", "touchstart", function(sym, e) {
+         // insert code for mouse click here
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_collection}", "click", function(sym, e) {
+         // insert code for mouse click here
+         // Navigate to a new URL in the current window
+         // (replace "_self" with appropriate target attribute)
+         window.open("http://www.amresorts.com", "_self");
+         
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -152,5 +175,21 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("bttn_prev");
    //Edge symbol end:'bttn_prev'
+
+   //=========================================================
+   
+   //Edge symbol: 'bttn_fly'
+   (function(symbolName) {   
+   
+   })("bttn_fly");
+   //Edge symbol end:'bttn_fly'
+
+   //=========================================================
+   
+   //Edge symbol: 'bttn_collection'
+   (function(symbolName) {   
+   
+   })("bttn_collection");
+   //Edge symbol end:'bttn_collection'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-35607789");

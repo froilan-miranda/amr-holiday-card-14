@@ -16,16 +16,26 @@
 			"timelineColor":"0x008dc8",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"false"}},
-	"expanded:images/bttn_next.png":"nil",
-	"expanded:images/fg_st_sand_1.png":"nil",
+	"expanded:images/Swipe_Right.png":"nil",
+	"expanded:images/mg_st_green_hill_2.png":"nil",
 	"expanded:images/images/bg_mountain_06.gif":"nil",
 	"expanded:images/bg_bar_grey.gif":"nil",
+	"symbol_bttn_collection":{
+		"element_${collection}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"}},
 	"expanded:images/bg_sky_left.jpg":"nil",
-	"nextElementColorIndex":"5",
-	"stage-Default Timeline_playhead_ms":"2687",
+	"nextElementColorIndex":"9",
+	"stage-Default Timeline_playhead_ms":"0",
 	"expanded:images/bg_city_02.png":"nil",
-	"expanded:images/mg_cr_water_hills.png":"nil",
-	"expanded:images/bttn_fly.png":"nil",
+	"symbol_bttn_fly":{
+		"element_${bttn_fly}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"}},
+	"HTMLFileName":"holidayCard.html",
+	"expanded:images/mg_buildings_07.png":"nil",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -59,6 +69,16 @@
 \"Down-level\": {\
    \"timelines\": {\
 \
+   }},\
+\"bttn_fly\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"bttn_collection\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
    }}\
 }",
 	"expanded:images/images/2014-Holiday-Card_Wireframe_FINAL_LOS_CABOS_resize_02.png":"nil",
@@ -76,56 +96,71 @@
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
 			"timelineColor":"0x00bda4"},
-		"element_${bg_sky_left2}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"timelineColor":"0x00a096"},
 		"element_${bg_sky_center2}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
-			"timelineColor":"0x00a9fa"}},
+			"timelineColor":"0x00a9fa"},
+		"element_${bg_sky_left2}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"}},
 	"expanded:images/mg_cr_hill.png":"nil",
 	"expanded:images/bg_sky_right.jpg":"nil",
 	"expanded:images/bg_sky.jpg":"nil",
 	"expanded:images/images/bg_mountain_06.png":"nil",
-	"pref__general__AutoKeyframePropertiesArmed":"false",
-	"expanded:images/fg_city_side.png":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"expanded:images/bg_city_side.png":"nil",
 	"bttn_next-Default Timeline_playhead_ms":"0",
-	"expanded:images/bg_mountain.png":"nil",
+	"usedBOM":"false",
 	"expanded:images/fg_st_sand_2.png":"nil",
 	"gr_bg_sky-Default Timeline_playhead_ms":"0",
 	"expanded:images/bottom_bar.png":"nil",
 	"expanded:images/gr_plane.png":"nil",
-	"expanded:images/bttn_prev.png":"nil",
-	"expanded:images/images/fg_st_sand_1.png":"nil",
-	"pref__general__FilterNonAnimatedElements":"false",
+	"pref__general__AutoKeyframeProperties":"false",
+	"expanded:images/bg_sky_01_04.jpg":"nil",
+	"expanded:images/mid_cr.png":"nil",
 	"expanded:images/gr_banner.png":"nil",
 	"expanded:images/mg_buildings.png":"nil",
-	"StageZoomFactor":"125",
+	"StageZoomFactor":"75",
 	"pixelsPerMs":"0.25553056847216",
 	"expanded:images/bg_sky_center.jpg":"nil",
-	"expanded:images/bg_mountain_2.png":"nil",
-	"usedBOM":"false",
-	"expanded:images/bg_city_side.png":"nil",
 	"stage-Default Timeline_mark_ms":"-1",
-	"expanded:images/city-mid-fore.png":"nil",
-	"expanded:images/mg_buildings_07.png":"nil",
-	"pref__general__AutoKeyframeProperties":"false",
+	"bg_sky-Default Timeline_playhead_ms":"0",
+	"expanded:images/mg_city_side.png":"nil",
+	"expanded:images/fg_city_side.png":"nil",
+	"expanded:images/bttn_fly.png":"nil",
+	"symbol_bttn_prev":{
+		"element_${bttn_prev}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
+			"timelineColor":"0x008dc8"}},
+	"pref__general__GenerateSmoothTransitions":"false",
+	"expanded:images/bttn_prev.png":"nil",
 	"expanded:images/mg_lc_water.png":"nil",
-	"expanded:images/mg_lc_rock_2.png":"nil",
-	"expanded:images/bg_sky_01_04.jpg":"nil",
-	"expanded:images/mg_st_green_hill_1.png":"nil",
 	"expanded:images/mg_st_water.png":"nil",
-	"expanded:images/Swipe_Right.png":"nil",
-	"expanded:images/mg_st_green_hill_2.png":"nil",
+	"expanded:images/images/fg_st_sand_1.png":"nil",
+	"symbol_bttn_next":{
+		"element_${bttn_next}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"}},
+	"expanded:images/city-mid-fore.png":"nil",
+	"expanded:images/bttn_next.png":"nil",
+	"expanded:images/fg_st_sand_1.png":"nil",
 	"expanded:images/images/fg_st_sand_1_18.png":"nil",
-	"HTMLFileName":"holidayCard.html",
-	"expanded:images/bg_ocean.png":"nil",
+	"expanded:images/bg_city.png":"nil",
+	"CompZoomFactor":"100",
 	"expanded:images/mid_snow.png":"nil",
-	"expanded:images/mid_cr.png":"nil",
+	"pref__general__FilterNonAnimatedElements":"false",
 	"expanded:images/mg_lc_rock_3.png":"nil",
-	"expanded:images/fg_st_sand_3.png":"nil",
+	"expanded:images/mg_lc_rock_2.png":"nil",
 	"expanded:images/collection.png":"nil",
+	"expanded:images/fg_st_sand_3.png":"nil",
+	"TransitionIdCounter":"189",
+	"bttn_fly-Default Timeline_playhead_ms":"0",
+	"viewStartY":"0",
+	"expanded:images/mg_st_green_hill_1.png":"nil",
 	"symbol_stage":{
 		"element_${bg_sky_right}":{
 			"timelineColor2":"0x107faa",
@@ -144,10 +179,29 @@
 			"timelineColor":"0x50bd82",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"false"},
-		"element_${mg_cr_water_hills}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"timelineColor":"0xceaef4"},
+		"element_${bttn_collection}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"true",
+			"timelineColor":"0x00a9fa"},
+		"element_${bg_city}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f",
+			"locked":"false",
+			"animationEnabled":"true",
+			"timelineTreeOpened":"true"},
+		"element_${bg_sky_center}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"false"},
+		"element_${collection}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
+			"timelineColor":"0x008dc8"},
 		"element_${mg_cr_hill}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
@@ -155,6 +209,12 @@
 			"timelineTreeOpened":"true",
 			"animationEnabled":"true",
 			"invisible":"false"},
+		"element_${bottom_bar}":{
+			"timelineColor2":"0x4fa275",
+			"invisible":"false",
+			"timelineColor":"0x50bd82",
+			"locked":"false",
+			"timelineColor3":"0x456a55"},
 		"element_${bg_mountainCopy}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
@@ -162,27 +222,24 @@
 			"timelineTreeOpened":"false",
 			"animationEnabled":"false",
 			"invisible":"false"},
-		"element_${bottom_bar}":{
-			"timelineColor2":"0x4fa275",
-			"invisible":"false",
-			"timelineColor":"0x50bd82",
-			"locked":"false",
-			"timelineColor3":"0x456a55"},
-		"element_${mg_city_side}":{
+		"element_${bttn_fly}":{
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
-			"timelineColor":"0x00a096",
+			"animationEnabled":"true",
+			"timelineColor":"0x00a096"},
+		"element_${mg_buildings}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"true"},
-		"element_${bttn_fly}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79"},
-		"element_${gr_banner}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"timelineColor":"0x91c767"},
-		"defaultStageParentWidth":"900px",
+		"element_${mg_cr_water_hills2}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true",
+			"invisible":"false"},
 		"element_${fg_st_sand_1}":{
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
@@ -207,53 +264,54 @@
 			"timelineColor":"0x00a096",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"true"},
-		"element_${bg_mountain_2}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79",
+		"element_${bttn_prev}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true"},
-		"element_${collection}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4"},
+		"element_${mg_city_side}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"true"},
 		"element_${fg-cr-greenhill}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
 			"timelineColor":"0xceaef4",
 			"animationEnabled":"true",
 			"invisible":"false"},
+		"element_${bg_sky2}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"defaultStageParentHeight":"450px",
 		"element_${btn_swipe_right}":{
 			"timelineColor2":"0xd8b467",
 			"timelineColor3":"0x81714f",
 			"timelineColor":"0xffd46d",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
-			"locked":"true"},
-		"defaultStageParentHeight":"450px",
-		"element_${mg_st_green_hill_1}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4",
-			"timelineTreeOpened":"false",
-			"animationEnabled":"true"},
-		"element_${fg_city_side}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"timelineColor":"0x2f73ad",
-			"timelineTreeOpened":"true",
-			"animationEnabled":"true"},
+			"locked":"false"},
+		"element_${city-mid-fore}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
 		"element_${bg_sky}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
 			"timelineColor":"0x00bda4",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"false"},
-		"element_${mg_lc_rock_2}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"animationEnabled":"true",
-			"timelineColor":"0x008dc8"},
+		"element_${bg_sky_left2}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
 		"element_${gr_bg_sky2}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
@@ -276,15 +334,19 @@
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"true",
 			"timelineColor":"0xdb619d"},
-		"element_${gr_plane}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82"},
+		"element_${mg_cr_water_hills2Copy}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true",
+			"invisible":"false"},
 		"element_${text_scroll}":{
 			"timelineColor2":"0x4fa275",
 			"invisible":"false",
 			"timelineColor":"0x50bd82",
 			"locked":"false",
+			"animationEnabled":"true",
 			"timelineColor3":"0x456a55"},
 		"element_${mg_st_waterCopy}":{
 			"timelineColor2":"0xcbbd71",
@@ -320,13 +382,13 @@
 			"timelineColor":"0x00a096",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"true"},
-		"element_${bg_city}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"timelineColor":"0x63599f",
+		"element_${Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"invisible":"false",
+			"timelineColor":"0xeedf79",
+			"timelineTreeOpened":"true",
 			"locked":"false",
-			"animationEnabled":"true",
-			"timelineTreeOpened":"true"},
+			"timelineColor3":"0x7b7652"},
 		"element_${mid_cr}":{
 			"timelineColor2":"0x107faa",
 			"timelineColor3":"0x295a6d",
@@ -351,7 +413,7 @@
 			"timelineColor":"0xdb619d",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
-			"locked":"true"},
+			"locked":"false"},
 		"element_${bttn_next3}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
@@ -362,13 +424,6 @@
 			"timelineColor3":"0x70657c",
 			"animationEnabled":"false",
 			"timelineColor":"0xceaef4"},
-		"element_${Stage}":{
-			"timelineColor2":"0xcbbd71",
-			"invisible":"false",
-			"timelineColor":"0xeedf79",
-			"timelineTreeOpened":"true",
-			"timelineColor3":"0x7b7652",
-			"locked":"false"},
 		"element_${mg_cr_hillCopy}":{
 			"timelineColor2":"0xd8b467",
 			"animationEnabled":"false",
@@ -386,28 +441,26 @@
 			"timelineColor":"0xfb657a",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
-			"locked":"true"},
-		"element_${mg_cr_water_hills2Copy}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"timelineColor":"0xdb619d",
-			"timelineTreeOpened":"false",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${bg_sky_left2}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"animationEnabled":"false",
-			"timelineColor":"0x2f73ad"},
-		"element_${city-mid-fore}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"false",
-			"timelineColor":"0xceaef4"},
-		"element_${bg_sky2}":{
+			"locked":"false"},
+		"element_${gr_plane}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82",
+			"timelineColor":"0x50bd82"},
+		"element_${mg_lc_rock_2}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"true",
+			"timelineColor":"0x008dc8"},
+		"element_${fg_city_side}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"true"},
+		"element_${mg_st_green_hill_1}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true"},
 		"element_${bg_sky_left}":{
@@ -415,55 +468,32 @@
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"false",
 			"timelineColor":"0x50bd82"},
-		"element_${bttn_prev}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"timelineColor":"0x63599f",
+		"element_${bg_mountain_2}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true"},
-		"element_${mg_cr_water_hills2}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a",
-			"timelineTreeOpened":"false",
+		"defaultStageParentWidth":"900px",
+		"element_${gr_banner}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
 			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${mg_buildings}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4",
-			"timelineTreeOpened":"true",
-			"animationEnabled":"true"},
+			"timelineColor":"0x91c767"},
 		"element_${Group}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
 			"timelineColor":"0x00a9fa",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"false"},
-		"element_${bg_sky_center}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"timelineColor":"0x008dc8",
-			"timelineTreeOpened":"true",
-			"animationEnabled":"false"}},
-	"TransitionIdCounter":"186",
-	"bg_sky-Default Timeline_playhead_ms":"0",
-	"viewStartY":"0",
-	"CompZoomFactor":"100",
-	"expanded:images/bg_city.png":"nil",
+		"element_${mg_cr_water_hills}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"}},
 	"expanded:images/mg_cr_green_hill_3.png":"nil",
-	"symbol_bttn_next":{
-		"element_${bttn_next}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4"}},
-	"pref__general__GenerateSmoothTransitions":"false",
-	"symbol_bttn_prev":{
-		"element_${bttn_prev}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"animationEnabled":"false",
-			"timelineColor":"0x008dc8"}},
+	"expanded:images/bg_mountain_2.png":"nil",
+	"expanded:images/mg_cr_water_hills.png":"nil",
+	"expanded:images/bg_ocean.png":"nil",
 	"expanded:images/fg-cr-greenhill.png":"nil",
 	"expanded:images/mg_lc_rock_1.png":"nil",
-	"expanded:images/mg_city_side.png":"nil"}
+	"expanded:images/bg_mountain.png":"nil"}

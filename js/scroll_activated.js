@@ -1,11 +1,11 @@
 AdobeEdge.bootstrapCallback(function(compId){
 	if(AdobeEdge.$('html').hasClass('no-touch')){
-		AdobeEdge.$('body').css('height','10000px').append('<p>debug</p>');
-		AdobeEdge.$('.touchElement').remove();
+		//AdobeEdge.$('body').css('height','10000px').append('<p>debug</p>');
+		//AdobeEdge.$('.touchElement').remove();
 		AdobeEdge.$(window).on('scroll',function(){
-			checkScroll();
+			//checkScroll();
 		}).resize(function(){
-			checkScroll();
+			//checkScroll();
 		});
 
 		function checkScroll(){
