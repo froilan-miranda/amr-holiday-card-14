@@ -37,6 +37,12 @@
                             rect: ['-1176px', '0px', '692', '400', 'auto', 'auto']
                         },
                         {
+                            id: 'bg_oceanCopy',
+                            type: 'image',
+                            rect: ['0px', '313px', '899px', '87px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"bg_ocean.png",'0px','0px']
+                        },
+                        {
                             id: 'bg_ocean',
                             type: 'image',
                             rect: ['900px', '313px', '899px', '87px', 'auto', 'auto'],
@@ -47,6 +53,12 @@
                             type: 'image',
                             rect: ['905px', '292px', '86px', '97px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"mg_lc_rock_2.png",'0px','0px']
+                        },
+                        {
+                            id: 'mg_lc_waterCopy',
+                            type: 'image',
+                            rect: ['903px', '382px', '999px', '19px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"mg_lc_water.png",'0px','0px']
                         },
                         {
                             id: 'mg_lc_water',
@@ -262,6 +274,12 @@
                             display: 'block',
                             type: 'rect',
                             rect: ['188', '169', '71', '18', 'auto', 'auto']
+                        },
+                        {
+                            id: 'clouds',
+                            symbolName: 'clouds',
+                            type: 'rect',
+                            rect: ['0px', '0px', '138', '55', 'auto', 'auto']
                         }
                     ],
                     style: {
@@ -275,13 +293,13 @@
                     }
                 },
                 timeline: {
-                    duration: 30000,
+                    duration: 14514,
                     autoPlay: true,
                     labels: {
                         "screen begin": 100,
                         "screen_cr": 5123,
                         "screen_st": 10000,
-                        "screen_lc": 12250
+                        "screen_lc": 14514
                     },
                     data: [
                         [
@@ -327,7 +345,7 @@
                         [
                             "eid49",
                             "left",
-                            9936,
+                            12200,
                             2314,
                             "linear",
                             "${bg_ocean}",
@@ -398,7 +416,7 @@
                             "eid14",
                             "left",
                             100,
-                            29900,
+                            14414,
                             "linear",
                             "${bg_sky2}",
                             '0px',
@@ -427,8 +445,8 @@
                         [
                             "eid136",
                             "left",
-                            12000,
-                            250,
+                            14070,
+                            444,
                             "linear",
                             "${mg_lc_rock_3}",
                             '900px',
@@ -497,7 +515,7 @@
                         [
                             "eid170",
                             "display",
-                            12209,
+                            14430,
                             0,
                             "linear",
                             "${bttn_prev}",
@@ -523,6 +541,26 @@
                             "${fg_st_sand_1}",
                             '-276px',
                             '-487px'
+                        ],
+                        [
+                            "eid190",
+                            "left",
+                            9786,
+                            2364,
+                            "linear",
+                            "${mg_lc_waterCopy}",
+                            '903px',
+                            '-99px'
+                        ],
+                        [
+                            "eid192",
+                            "left",
+                            12150,
+                            2364,
+                            "linear",
+                            "${mg_lc_waterCopy}",
+                            '-99px',
+                            '-1000px'
                         ],
                         [
                             "eid66",
@@ -765,14 +803,44 @@
                             'block'
                         ],
                         [
+                            "eid198",
+                            "left",
+                            0,
+                            14514,
+                            "linear",
+                            "${gr_plane}",
+                            '190px',
+                            '666px'
+                        ],
+                        [
                             "eid138",
                             "left",
-                            11817,
-                            433,
+                            13750,
+                            764,
                             "linear",
                             "${mg_lc_rock_2}",
                             '905px',
                             '548px'
+                        ],
+                        [
+                            "eid189",
+                            "left",
+                            9886,
+                            2314,
+                            "linear",
+                            "${bg_oceanCopy}",
+                            '900px',
+                            '0px'
+                        ],
+                        [
+                            "eid194",
+                            "left",
+                            12200,
+                            2314,
+                            "linear",
+                            "${bg_oceanCopy}",
+                            '0px',
+                            '-897px'
                         ],
                         [
                             "eid188",
@@ -857,7 +925,7 @@
                         [
                             "eid132",
                             "left",
-                            9886,
+                            12150,
                             2364,
                             "linear",
                             "${mg_lc_water}",
@@ -1158,6 +1226,80 @@
                 },
                 timeline: {
                     duration: 0,
+                    autoPlay: true,
+                    data: [
+
+                    ]
+                }
+            },
+            "clouds": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'cloud2',
+                            symbolName: 'cloud',
+                            rect: ['757', '63', undefined, undefined, 'auto', 'auto'],
+                            type: 'rect'
+                        },
+                        {
+                            id: 'cloud3',
+                            symbolName: 'cloud',
+                            rect: ['397', '40', undefined, undefined, 'auto', 'auto'],
+                            type: 'rect'
+                        },
+                        {
+                            id: 'cloud4',
+                            symbolName: 'cloud',
+                            rect: ['102', '30', undefined, undefined, 'auto', 'auto'],
+                            type: 'rect'
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '900px', '150px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 250,
+                    autoPlay: true,
+                    data: [
+
+                    ]
+                }
+            },
+            "cloud": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'gr_cloud',
+                            type: 'image',
+                            rect: ['0px', '0px', '138px', '55px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/gr_cloud.png', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '138px', '55px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 250,
                     autoPlay: true,
                     data: [
 

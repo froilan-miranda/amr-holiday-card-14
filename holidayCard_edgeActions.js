@@ -42,7 +42,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 12250, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 14514, function(sym, e) {
          // insert code here
          sym.stop();
 
@@ -191,5 +191,65 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
    })("bttn_collection");
    //Edge symbol end:'bttn_collection'
+
+   //=========================================================
+   
+   //Edge symbol: 'clouds'
+   (function(symbolName) {   
+   
+   })("clouds");
+   //Edge symbol end:'clouds'
+
+   //=========================================================
+   
+   //Edge symbol: 'cloud'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 250, function(sym, e) {
+         sym.stop();
+         
+         // interval
+         var timer = setInterval(onTimer,50);
+         //var mysymbol = sym.getSymbol("cloud");
+         var maxX = $('#Stage').width();
+         var mySym = sym.getSymbolElement();
+         var speed = Math.floor((Math.random() * 3) + 1);
+         
+         //alert(mySym.width());
+         //alert(maxX);
+         mySym.css("position","absolute");
+         
+         
+         // function
+         function onTimer() {
+         	// clear last interval
+         	//clearInterval(timer);
+         
+         	// action
+         	var oldLeft = mySym.position().left;
+         	var newLeft;
+         
+         	if(oldLeft > -(mySym.width())){
+         		newLeft = oldLeft - speed;
+         	}else{
+         		newLeft = maxX;
+         		mySym.css("top", randomY()+"px");
+         	}
+         	//console.log(newLeft);
+         	mySym.css("left", newLeft+"px");
+         
+         }
+         
+         function randomY(){
+         	var minY=0;
+         	var maxY=150 - mySym.height();
+         	return (Math.floor((Math.random() * (maxY - minY)) + 0));
+         }
+
+      });
+      //Edge binding end
+
+   })("cloud");
+   //Edge symbol end:'cloud'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-35607789");
