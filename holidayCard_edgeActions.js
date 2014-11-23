@@ -15,7 +15,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       
       Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
          // insert code to be run when the composition is fully loaded here
-         sym.$(".bg_bottom_bar").css("background-repeat","repeat-x");
 
       });
       //Edge binding end
