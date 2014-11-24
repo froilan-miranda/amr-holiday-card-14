@@ -416,24 +416,14 @@
                             'none'
                         ],
                         [
-                            "eid62",
+                            "eid61",
                             "left",
-                            799,
-                            1951,
+                            100,
+                            1900,
                             "linear",
-                            "${fg_city_sideCopy}",
-                            '917px',
+                            "${fg_city_side}",
+                            '580px',
                             '-427px'
-                        ],
-                        [
-                            "eid242",
-                            "left",
-                            2750,
-                            2312,
-                            "linear",
-                            "${fg_city_sideCopy}",
-                            '-427px',
-                            '-433px'
                         ],
                         [
                             "eid49",
@@ -496,44 +486,44 @@
                             '-344px'
                         ],
                         [
-                            "eid29",
-                            "display",
-                            5000,
-                            0,
-                            "linear",
-                            "${bg_city}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid14",
+                            "eid276",
                             "left",
                             100,
-                            14414,
+                            4810,
                             "linear",
-                            "${bg_sky2}",
+                            "${gr_snowfall}",
                             '0px',
-                            '-1176px'
+                            '-791px'
                         ],
                         [
-                            "eid43",
+                            "eid247",
                             "left",
-                            7414,
-                            2472,
+                            3911,
+                            1212,
                             "linear",
-                            "${bg_mountain_2}",
-                            '900px',
-                            '605px'
+                            "${gr_red_bird}",
+                            '905px',
+                            '392px'
                         ],
                         [
-                            "eid46",
+                            "eid249",
                             "left",
-                            9886,
-                            2472,
+                            5123,
+                            982,
                             "linear",
-                            "${bg_mountain_2}",
-                            '605px',
-                            '-333px'
+                            "${gr_red_bird}",
+                            '392px',
+                            '-41px'
+                        ],
+                        [
+                            "eid272",
+                            "opacity",
+                            100,
+                            400,
+                            "linear",
+                            "${text_scroll}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid136",
@@ -686,16 +676,6 @@
                             '1'
                         ],
                         [
-                            "eid276",
-                            "left",
-                            100,
-                            4810,
-                            "linear",
-                            "${gr_snowfall}",
-                            '0px',
-                            '-791px'
-                        ],
-                        [
                             "eid180",
                             "display",
                             153,
@@ -706,9 +686,9 @@
                             'block'
                         ],
                         [
-                            "eid181",
+                            "eid278",
                             "display",
-                            9936,
+                            15894,
                             0,
                             "linear",
                             "${btn_swipe_both}",
@@ -736,92 +716,62 @@
                             '-906px'
                         ],
                         [
-                            "eid272",
-                            "opacity",
-                            100,
-                            400,
+                            "eid88",
+                            "left",
+                            4250,
+                            880,
                             "linear",
-                            "${text_scroll}",
-                            '1',
-                            '0'
+                            "${mg_cr_water_hills2}",
+                            '913px',
+                            '-173px'
                         ],
                         [
-                            "eid274",
-                            "opacity",
-                            0,
-                            0,
+                            "eid86",
+                            "left",
+                            5130,
+                            1133,
                             "linear",
-                            "${bttn_fly}",
-                            '1',
+                            "${mg_cr_water_hills2}",
+                            '-173px',
+                            '-1170px'
+                        ],
+                        [
+                            "eid231",
+                            "opacity",
+                            14514,
+                            1000,
+                            "linear",
+                            "${gr_signatures}",
+                            '0',
                             '1'
                         ],
                         [
-                            "eid269",
-                            "opacity",
-                            100,
-                            400,
-                            "linear",
-                            "${bttn_fly}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid262",
-                            "opacity",
-                            100,
-                            400,
-                            "linear",
-                            "${gr_banner}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid247",
+                            "eid216",
                             "left",
-                            3911,
-                            1212,
+                            8856,
+                            1144,
                             "linear",
-                            "${gr_red_bird}",
-                            '905px',
-                            '392px'
+                            "${gr_boat_2}",
+                            '907px',
+                            '281px'
                         ],
                         [
-                            "eid249",
+                            "eid218",
                             "left",
-                            5123,
-                            982,
+                            10000,
+                            500,
                             "linear",
-                            "${gr_red_bird}",
-                            '392px',
-                            '-41px'
+                            "${gr_boat_2}",
+                            '281px',
+                            '-114px'
                         ],
                         [
-                            "eid41",
+                            "eid179",
                             "display",
-                            0,
+                            153,
                             0,
                             "linear",
-                            "${bg_mountain_2}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid38",
-                            "display",
-                            7414,
-                            0,
-                            "linear",
-                            "${bg_mountain_2}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid44",
-                            "display",
-                            12357,
-                            0,
-                            "linear",
-                            "${bg_mountain_2}",
+                            "${btn_swipe_left}",
                             'block',
                             'none'
                         ],
@@ -846,44 +796,44 @@
                             '-308px'
                         ],
                         [
-                            "eid159",
+                            "eid62",
                             "left",
-                            5186,
-                            2463,
+                            799,
+                            1951,
                             "linear",
-                            "${mg_st_waterCopy}",
-                            '902px',
-                            '-79px'
+                            "${fg_city_sideCopy}",
+                            '917px',
+                            '-427px'
                         ],
                         [
-                            "eid160",
+                            "eid242",
                             "left",
-                            7649,
-                            2287,
+                            2750,
+                            2312,
                             "linear",
-                            "${mg_st_waterCopy}",
-                            '-79px',
-                            '-901px'
+                            "${fg_city_sideCopy}",
+                            '-427px',
+                            '-433px'
                         ],
                         [
-                            "eid89",
+                            "eid224",
                             "left",
-                            5123,
-                            880,
+                            8500,
+                            1500,
                             "linear",
-                            "${mg_cr_water_hills2Copy}",
-                            '913px',
-                            '-173px'
+                            "${gr_boat_4}",
+                            '984px',
+                            '427px'
                         ],
                         [
-                            "eid90",
+                            "eid225",
                             "left",
-                            6002,
-                            1133,
+                            10000,
+                            1500,
                             "linear",
-                            "${mg_cr_water_hills2Copy}",
-                            '-173px',
-                            '-1170px'
+                            "${gr_boat_4}",
+                            '427px',
+                            '-36px'
                         ],
                         [
                             "eid185",
@@ -956,14 +906,44 @@
                             'none'
                         ],
                         [
-                            "eid61",
-                            "left",
-                            100,
-                            1900,
+                            "eid210",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${fg_city_side}",
-                            '580px',
-                            '-427px'
+                            "${gr_red_bird}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid202",
+                            "display",
+                            3911,
+                            0,
+                            "linear",
+                            "${gr_red_bird}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid203",
+                            "display",
+                            5123,
+                            0,
+                            "linear",
+                            "${gr_red_bird}",
+                            'block',
+                            'block'
+                        ],
+                        [
+                            "eid204",
+                            "display",
+                            6105,
+                            0,
+                            "linear",
+                            "${gr_red_bird}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid28",
@@ -996,24 +976,64 @@
                             '-479px'
                         ],
                         [
-                            "eid189",
-                            "left",
-                            9886,
-                            2314,
+                            "eid274",
+                            "opacity",
+                            0,
+                            0,
                             "linear",
-                            "${bg_oceanCopy}",
-                            '900px',
-                            '0px'
+                            "${bttn_fly}",
+                            '1',
+                            '1'
                         ],
                         [
-                            "eid194",
-                            "left",
-                            12200,
-                            2393,
+                            "eid269",
+                            "opacity",
+                            100,
+                            400,
                             "linear",
-                            "${bg_oceanCopy}",
-                            '0px',
-                            '-897px'
+                            "${bttn_fly}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid66",
+                            "left",
+                            2864,
+                            2259,
+                            "linear",
+                            "${mid_cr}",
+                            '898px',
+                            '-8px'
+                        ],
+                        [
+                            "eid68",
+                            "left",
+                            5123,
+                            1700,
+                            "linear",
+                            "${mid_cr}",
+                            '-8px',
+                            '-934px'
+                        ],
+                        [
+                            "eid94",
+                            "left",
+                            7500,
+                            2463,
+                            "linear",
+                            "${mg_st_water}",
+                            '902px',
+                            '-79px'
+                        ],
+                        [
+                            "eid113",
+                            "left",
+                            9963,
+                            2287,
+                            "linear",
+                            "${mg_st_water}",
+                            '-79px',
+                            '-901px'
                         ],
                         [
                             "eid103",
@@ -1034,36 +1054,6 @@
                             "${fg_st_sand_2}",
                             '635px',
                             '-265px'
-                        ],
-                        [
-                            "eid53",
-                            "left",
-                            100,
-                            2400,
-                            "linear",
-                            "${mg_buildings}",
-                            '32px',
-                            '-393px'
-                        ],
-                        [
-                            "eid241",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${bttn_restart2}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid240",
-                            "display",
-                            15514,
-                            0,
-                            "linear",
-                            "${bttn_restart2}",
-                            'none',
-                            'block'
                         ],
                         [
                             "eid153",
@@ -1108,52 +1098,12 @@
                         [
                             "eid183",
                             "display",
-                            9936,
+                            15894,
                             0,
                             "linear",
                             "${btn_swipe_right}",
                             'none',
                             'block'
-                        ],
-                        [
-                            "eid198",
-                            "left",
-                            153,
-                            14361,
-                            "linear",
-                            "${gr_plane}",
-                            '190px',
-                            '666px'
-                        ],
-                        [
-                            "eid220",
-                            "left",
-                            8500,
-                            1500,
-                            "linear",
-                            "${gr_boat_3}",
-                            '905px',
-                            '195px'
-                        ],
-                        [
-                            "eid222",
-                            "left",
-                            10000,
-                            1000,
-                            "linear",
-                            "${gr_boat_3}",
-                            '195px',
-                            '-57px'
-                        ],
-                        [
-                            "eid138",
-                            "left",
-                            13750,
-                            764,
-                            "linear",
-                            "${mg_lc_rock_2}",
-                            '905px',
-                            '548px'
                         ],
                         [
                             "eid32",
@@ -1176,44 +1126,94 @@
                             '-467px'
                         ],
                         [
-                            "eid94",
+                            "eid262",
+                            "opacity",
+                            100,
+                            400,
+                            "linear",
+                            "${gr_banner}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid159",
                             "left",
-                            7500,
+                            5186,
                             2463,
                             "linear",
-                            "${mg_st_water}",
+                            "${mg_st_waterCopy}",
                             '902px',
                             '-79px'
                         ],
                         [
-                            "eid113",
+                            "eid160",
                             "left",
-                            9963,
+                            7649,
                             2287,
                             "linear",
-                            "${mg_st_water}",
+                            "${mg_st_waterCopy}",
                             '-79px',
                             '-901px'
                         ],
                         [
-                            "eid66",
+                            "eid138",
                             "left",
-                            2864,
-                            2259,
+                            13750,
+                            764,
                             "linear",
-                            "${mid_cr}",
-                            '898px',
-                            '-8px'
+                            "${mg_lc_rock_2}",
+                            '905px',
+                            '548px'
                         ],
                         [
-                            "eid68",
+                            "eid220",
                             "left",
-                            5123,
-                            1700,
+                            8500,
+                            1500,
                             "linear",
-                            "${mid_cr}",
-                            '-8px',
-                            '-934px'
+                            "${gr_boat_3}",
+                            '905px',
+                            '195px'
+                        ],
+                        [
+                            "eid222",
+                            "left",
+                            10000,
+                            1000,
+                            "linear",
+                            "${gr_boat_3}",
+                            '195px',
+                            '-57px'
+                        ],
+                        [
+                            "eid198",
+                            "left",
+                            153,
+                            14361,
+                            "linear",
+                            "${gr_plane}",
+                            '190px',
+                            '666px'
+                        ],
+                        [
+                            "eid241",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${bttn_restart2}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid240",
+                            "display",
+                            15514,
+                            0,
+                            "linear",
+                            "${bttn_restart2}",
+                            'none',
+                            'block'
                         ],
                         [
                             "eid209",
@@ -1246,64 +1246,34 @@
                             'none'
                         ],
                         [
-                            "eid210",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid202",
-                            "display",
-                            3911,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid203",
-                            "display",
-                            5123,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
-                            'block',
-                            'block'
-                        ],
-                        [
-                            "eid204",
-                            "display",
-                            6105,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid224",
+                            "eid189",
                             "left",
-                            8500,
-                            1500,
+                            9886,
+                            2314,
                             "linear",
-                            "${gr_boat_4}",
-                            '984px',
-                            '427px'
+                            "${bg_oceanCopy}",
+                            '900px',
+                            '0px'
                         ],
                         [
-                            "eid225",
+                            "eid194",
                             "left",
-                            10000,
-                            1500,
+                            12200,
+                            2393,
                             "linear",
-                            "${gr_boat_4}",
-                            '427px',
-                            '-36px'
+                            "${bg_oceanCopy}",
+                            '0px',
+                            '-897px'
+                        ],
+                        [
+                            "eid53",
+                            "left",
+                            100,
+                            2400,
+                            "linear",
+                            "${mg_buildings}",
+                            '32px',
+                            '-393px'
                         ],
                         [
                             "eid132",
@@ -1316,64 +1286,94 @@
                             '-99px'
                         ],
                         [
-                            "eid179",
+                            "eid29",
                             "display",
-                            153,
+                            5000,
                             0,
                             "linear",
-                            "${btn_swipe_left}",
+                            "${bg_city}",
                             'block',
                             'none'
                         ],
                         [
-                            "eid216",
+                            "eid14",
                             "left",
-                            8856,
-                            1144,
+                            100,
+                            14414,
                             "linear",
-                            "${gr_boat_2}",
-                            '907px',
-                            '281px'
+                            "${bg_sky2}",
+                            '0px',
+                            '-1176px'
                         ],
                         [
-                            "eid218",
+                            "eid89",
                             "left",
-                            10000,
-                            500,
-                            "linear",
-                            "${gr_boat_2}",
-                            '281px',
-                            '-114px'
-                        ],
-                        [
-                            "eid231",
-                            "opacity",
-                            14514,
-                            1000,
-                            "linear",
-                            "${gr_signatures}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid88",
-                            "left",
-                            4250,
+                            5123,
                             880,
                             "linear",
-                            "${mg_cr_water_hills2}",
+                            "${mg_cr_water_hills2Copy}",
                             '913px',
                             '-173px'
                         ],
                         [
-                            "eid86",
+                            "eid90",
                             "left",
-                            5130,
+                            6002,
                             1133,
                             "linear",
-                            "${mg_cr_water_hills2}",
+                            "${mg_cr_water_hills2Copy}",
                             '-173px',
                             '-1170px'
+                        ],
+                        [
+                            "eid43",
+                            "left",
+                            7414,
+                            2472,
+                            "linear",
+                            "${bg_mountain_2}",
+                            '900px',
+                            '605px'
+                        ],
+                        [
+                            "eid46",
+                            "left",
+                            9886,
+                            2472,
+                            "linear",
+                            "${bg_mountain_2}",
+                            '605px',
+                            '-333px'
+                        ],
+                        [
+                            "eid41",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${bg_mountain_2}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid38",
+                            "display",
+                            7414,
+                            0,
+                            "linear",
+                            "${bg_mountain_2}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid44",
+                            "display",
+                            12357,
+                            0,
+                            "linear",
+                            "${bg_mountain_2}",
+                            'block',
+                            'none'
                         ]
                     ]
                 }
@@ -1430,21 +1430,21 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'bg_sky_left2',
                             rect: ['0px', '0px', '692px', '400px', 'auto', 'auto'],
+                            id: 'bg_sky_left2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_left.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'bg_sky_center2',
                             rect: ['691px', '0', '692px', '400px', 'auto', 'auto'],
+                            id: 'bg_sky_center2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_center.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'bg_sky_right',
                             rect: ['1382px', '0', '692px', '400px', 'auto', 'auto'],
+                            id: 'bg_sky_right',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_right.jpg', '0px', '0px']
                         }
                     ],
@@ -1472,9 +1472,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
-                            id: 'bttn_next',
                             type: 'image',
+                            id: 'bttn_next',
+                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bttn_next.png', '0px', '0px']
                         }
                     ],
@@ -1502,10 +1502,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
                             overflow: 'visible',
                             id: 'bttn_prev',
-                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/bttn_prev.png', '0px', '0px']
                         }
                     ],
@@ -1533,9 +1533,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '71px', '18px', 'auto', 'auto'],
-                            id: 'bttn_fly',
                             type: 'image',
+                            id: 'bttn_fly',
+                            rect: ['0px', '0px', '71px', '18px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bttn_fly.png', '0px', '0px']
                         }
                     ],
@@ -1563,9 +1563,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '216px', '34px', 'auto', 'auto'],
-                            id: 'collection',
                             type: 'image',
+                            id: 'collection',
+                            rect: ['0px', '0px', '216px', '34px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/collection.png', '0px', '0px']
                         }
                     ],
@@ -1593,22 +1593,22 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['757', '63', null, null, 'auto', 'auto'],
                             id: 'cloud2',
                             symbolName: 'cloud',
-                            rect: ['757', '63', null, null, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: ['317px', '79px', null, null, 'auto', 'auto'],
                             id: 'cloud3',
                             symbolName: 'cloud',
-                            rect: ['317px', '79px', null, null, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: ['-14px', '20px', null, null, 'auto', 'auto'],
                             id: 'cloud4',
                             symbolName: 'cloud',
-                            rect: ['-14px', '20px', null, null, 'auto', 'auto']
+                            type: 'rect'
                         }
                     ],
                     style: {
@@ -1635,9 +1635,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'gr_cloud',
                             rect: ['0px', '0px', '138px', '55px', 'auto', 'auto'],
+                            id: 'gr_cloud',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gr_cloud.png', '0px', '0px']
                         }
                     ],
@@ -1665,16 +1665,16 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['71px', '33px', '88', '35', 'auto', 'auto'],
                             id: 'cloud_med',
                             symbolName: 'cloud_med',
-                            rect: ['71px', '33px', '88', '35', 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: ['572', '33', null, null, 'auto', 'auto'],
                             id: 'cloud_med2',
                             symbolName: 'cloud_med',
-                            rect: ['572', '33', null, null, 'auto', 'auto']
+                            type: 'rect'
                         }
                     ],
                     style: {
@@ -1701,9 +1701,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'clouds_med',
                             rect: ['0px', '0px', '88px', '35px', 'auto', 'auto'],
+                            id: 'clouds_med',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/clouds_med.png', '0px', '0px']
                         }
                     ],
@@ -1731,9 +1731,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '72px', '18px', 'auto', 'auto'],
-                            id: 'bttn_again',
                             type: 'image',
+                            id: 'bttn_again',
+                            rect: ['0px', '0px', '72px', '18px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bttn_again.png', '0px', '0px']
                         }
                     ],
@@ -1761,9 +1761,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '44px', '15px', 'auto', 'auto'],
-                            id: 'bttn_restart',
                             type: 'image',
+                            id: 'bttn_restart',
+                            rect: ['0px', '0px', '44px', '15px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bttn_restart.png', '0px', '0px']
                         }
                     ],
