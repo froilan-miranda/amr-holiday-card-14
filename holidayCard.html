@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-	<title>Untitled</title>
+	<title>AMResorts</title>
 <!--Adobe Edge Runtime-->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <script type="text/javascript" charset="utf-8" src="edge_includes/edge.5.0.1.min.js"></script>
@@ -18,7 +18,41 @@
     maxW: "900px",
     width: "900px",
     height: "450px"
-}, {dom: [ ]}, {dom: [ ]});
+}, {
+    dom: [
+        {
+            id: 'preloader1',
+            type: 'image',
+            tag: 'img',
+            rect: ['408', '183', '85px', '85px', 'auto', 'auto'],
+            fill: ["rgba(0,0,0,0)",'images/preloader1.gif','0px','0px']
+        }
+    ],
+    style: {
+        '${symbolSelector}': {
+            isStage: true,
+            rect: [undefined, undefined, '900px', '450px']
+        }
+    }
+}, {
+    dom: [
+        {
+            id: 'Poster',
+            type: 'image',
+            tag: 'img',
+            linkURL: "http://www.amresorts.com",
+            rect: ['0', '0', '900px', '450px', 'auto', 'auto'],
+            fill: ["rgba(0,0,0,0)",'images/Poster.png','0px','0px']
+        }
+    ],
+    style: {
+        '${symbolSelector}': {
+            isStage: true,
+            rect: [undefined, undefined, '900px', '450px'],
+            fill: ["rgba(255,255,255,1)"]
+        }
+    }
+});
 </script>
 <!--Adobe Edge Runtime End-->
 

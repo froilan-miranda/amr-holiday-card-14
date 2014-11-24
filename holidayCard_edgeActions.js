@@ -42,7 +42,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 14514, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 16000, function(sym, e) {
          // insert code here
          sym.stop();
 
@@ -130,6 +130,30 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // (replace "_self" with appropriate target attribute)
          window.open("http://www.amresorts.com", "_self");
          
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_again}", "click", function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_restart2}", "click", function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_restart2}", "touchstart", function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_again}", "touchstart", function(sym, e) {
+         sym.play(0);
 
       });
       //Edge binding end
@@ -251,5 +275,89 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("cloud");
    //Edge symbol end:'cloud'
+
+   //=========================================================
+   
+   //Edge symbol: 'clouds_med'
+   (function(symbolName) {   
+   
+   })("clouds_med");
+   //Edge symbol end:'clouds_med'
+
+   //=========================================================
+   
+   //Edge symbol: 'cloud_med'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 93, function(sym, e) {
+         sym.stop();
+         
+         // interval
+         var timer = setInterval(onTimer,50);
+         //var mysymbol = sym.getSymbol("cloud");
+         var maxX = $('#Stage').width();
+         var mySym = sym.getSymbolElement();
+         var speed = Math.floor((Math.random() * 1) + 1);
+         
+         //alert(mySym.width());
+         //alert(maxX);
+         mySym.css("position","absolute");
+         
+         
+         // function
+         function onTimer() {
+         	// clear last interval
+         	//clearInterval(timer);
+         
+         	// action
+         	var oldLeft = mySym.position().left;
+         	var newLeft;
+         
+         	if(oldLeft > -(mySym.width())){
+         		newLeft = oldLeft - speed;
+         	}else{
+         		newLeft = maxX;
+         		mySym.css("top", randomY()+"px");
+         	}
+         	//console.log(newLeft);
+         	mySym.css("left", newLeft+"px");
+         
+         }
+         
+         function randomY(){
+         	var minY=0;
+         	var maxY=75 - mySym.height();
+         	return (Math.floor((Math.random() * (maxY - minY)) + 0));
+         }
+
+      });
+      //Edge binding end
+
+   })("cloud_med");
+   //Edge symbol end:'cloud_med'
+
+   //=========================================================
+   
+   //Edge symbol: 'bttn_again'
+   (function(symbolName) {   
+   
+   })("bttn_again");
+   //Edge symbol end:'bttn_again'
+
+   //=========================================================
+   
+   //Edge symbol: 'bttn_restart'
+   (function(symbolName) {   
+   
+   })("bttn_restart");
+   //Edge symbol end:'bttn_restart'
+
+   //=========================================================
+   
+   //Edge symbol: 'Preloader'
+   (function(symbolName) {   
+   
+   })("Preloader");
+   //Edge symbol end:'Preloader'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-35607789");
