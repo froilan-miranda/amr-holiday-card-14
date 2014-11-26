@@ -34,7 +34,7 @@
                             id: 'bg_sky2',
                             symbolName: 'bg_sky',
                             type: 'rect',
-                            rect: ['-1176px', '0px', '692', '400', 'auto', 'auto']
+                            rect: ['-1174px', '0px', '692', '400', 'auto', 'auto']
                         },
                         {
                             id: 'clouds',
@@ -81,14 +81,14 @@
                         {
                             id: 'gr_signatures',
                             type: 'image',
-                            rect: ['314px', '126px', '270px', '100px', 'auto', 'auto'],
+                            rect: ['278px', '89px', '342px', '126px', 'auto', 'auto'],
                             opacity: '0',
                             fill: ["rgba(0,0,0,0)",im+"gr_signatures.png",'0px','0px']
                         },
                         {
                             id: 'mg_lc_rock_3',
                             type: 'image',
-                            rect: ['559px', '175px', '342px', '226px', 'auto', 'auto'],
+                            rect: ['905px', '175px', '342px', '226px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"mg_lc_rock_3.png",'0px','0px']
                         },
                         {
@@ -288,6 +288,7 @@
                             display: 'none',
                             type: 'rect',
                             rect: ['845', '417', '12', '16', 'auto', 'auto'],
+                            cursor: 'pointer',
                             userClass: "touchElement"
                         },
                         {
@@ -296,20 +297,31 @@
                             display: 'none',
                             type: 'rect',
                             rect: ['822', '417', '12', '16', 'auto', 'auto'],
+                            cursor: 'pointer',
                             userClass: "touchElement"
+                        },
+                        {
+                            id: 'navigate',
+                            display: 'none',
+                            type: 'text',
+                            rect: ['606px', '419px', '198px', '16px', 'auto', 'auto'],
+                            text: "Navigate to your next destination",
+                            font: ['Verdana, Geneva, sans-serif', [11, "px"], "rgba(133,133,133,1.00)", "normal", "none", "", "break-word", "normal"]
                         },
                         {
                             id: 'bttn_restart2',
                             symbolName: 'bttn_restart',
                             display: 'none',
                             type: 'rect',
-                            rect: ['840', '418', '44', '15', 'auto', 'auto']
+                            rect: ['840', '418', '44', '15', 'auto', 'auto'],
+                            cursor: 'pointer'
                         },
                         {
                             id: 'bttn_collection',
                             symbolName: 'bttn_collection',
                             type: 'rect',
-                            rect: ['8', '408', '216', '34', 'auto', 'auto']
+                            rect: ['8', '408', '216', '34', 'auto', 'auto'],
+                            cursor: 'pointer'
                         },
                         {
                             id: 'btn_swipe_left',
@@ -343,6 +355,7 @@
                             symbolName: 'bttn_fly',
                             type: 'rect',
                             rect: ['188', '169', '71', '18', 'auto', 'auto'],
+                            cursor: 'pointer',
                             opacity: '1'
                         },
                         {
@@ -350,6 +363,7 @@
                             symbolName: 'bttn_again',
                             type: 'rect',
                             rect: ['418', '241', '72', '18', 'auto', 'auto'],
+                            cursor: 'pointer',
                             opacity: '0'
                         },
                         {
@@ -496,14 +510,14 @@
                             '-344px'
                         ],
                         [
-                            "eid276",
-                            "left",
-                            100,
-                            4810,
+                            "eid29",
+                            "display",
+                            5000,
+                            0,
                             "linear",
-                            "${gr_snowfall}",
-                            '0px',
-                            '-791px'
+                            "${bg_city}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid247",
@@ -526,24 +540,34 @@
                             '-41px'
                         ],
                         [
-                            "eid179",
-                            "display",
-                            153,
-                            0,
+                            "eid43",
+                            "left",
+                            7414,
+                            2472,
                             "linear",
-                            "${btn_swipe_left}",
-                            'block',
-                            'none'
+                            "${bg_mountain_2}",
+                            '900px',
+                            '605px'
                         ],
                         [
-                            "eid136",
+                            "eid46",
                             "left",
-                            14070,
-                            444,
+                            9886,
+                            2472,
                             "linear",
-                            "${mg_lc_rock_3}",
-                            '900px',
-                            '559px'
+                            "${bg_mountain_2}",
+                            '605px',
+                            '-333px'
+                        ],
+                        [
+                            "eid28",
+                            "left",
+                            100,
+                            4900,
+                            "linear",
+                            "${bg_city}",
+                            '-49px',
+                            '-580px'
                         ],
                         [
                             "eid252",
@@ -656,6 +680,56 @@
                             '-487px'
                         ],
                         [
+                            "eid291",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${navigate}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid287",
+                            "display",
+                            5046,
+                            0,
+                            "linear",
+                            "${navigate}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid288",
+                            "display",
+                            5186,
+                            0,
+                            "linear",
+                            "${navigate}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid289",
+                            "display",
+                            9936,
+                            0,
+                            "linear",
+                            "${navigate}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid290",
+                            "display",
+                            10053,
+                            0,
+                            "linear",
+                            "${navigate}",
+                            'block',
+                            'none'
+                        ],
+                        [
                             "eid190",
                             "left",
                             9786,
@@ -676,12 +750,12 @@
                             '-1000px'
                         ],
                         [
-                            "eid231",
+                            "eid239",
                             "opacity",
-                            14514,
-                            1000,
+                            15514,
+                            486,
                             "linear",
-                            "${gr_signatures}",
+                            "${bttn_again}",
                             '0',
                             '1'
                         ],
@@ -726,94 +800,94 @@
                             '-906px'
                         ],
                         [
-                            "eid220",
+                            "eid88",
                             "left",
-                            8500,
-                            1500,
+                            4250,
+                            880,
                             "linear",
-                            "${gr_boat_3}",
-                            '905px',
-                            '195px'
+                            "${mg_cr_water_hills2}",
+                            '913px',
+                            '-173px'
                         ],
                         [
-                            "eid222",
+                            "eid86",
+                            "left",
+                            5130,
+                            1133,
+                            "linear",
+                            "${mg_cr_water_hills2}",
+                            '-173px',
+                            '-1170px'
+                        ],
+                        [
+                            "eid216",
+                            "left",
+                            8856,
+                            1144,
+                            "linear",
+                            "${gr_boat_2}",
+                            '907px',
+                            '281px'
+                        ],
+                        [
+                            "eid218",
                             "left",
                             10000,
-                            1000,
+                            500,
                             "linear",
-                            "${gr_boat_3}",
-                            '195px',
-                            '-57px'
+                            "${gr_boat_2}",
+                            '281px',
+                            '-114px'
                         ],
                         [
-                            "eid41",
+                            "eid136",
+                            "left",
+                            14070,
+                            444,
+                            "linear",
+                            "${mg_lc_rock_3}",
+                            '905px',
+                            '559px'
+                        ],
+                        [
+                            "eid210",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${bg_mountain_2}",
+                            "${gr_red_bird}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid38",
+                            "eid202",
                             "display",
-                            7414,
+                            3911,
                             0,
                             "linear",
-                            "${bg_mountain_2}",
+                            "${gr_red_bird}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid44",
+                            "eid203",
                             "display",
-                            12357,
+                            5123,
                             0,
                             "linear",
-                            "${bg_mountain_2}",
+                            "${gr_red_bird}",
+                            'block',
+                            'block'
+                        ],
+                        [
+                            "eid204",
+                            "display",
+                            6105,
+                            0,
+                            "linear",
+                            "${gr_red_bird}",
                             'block',
                             'none'
-                        ],
-                        [
-                            "eid43",
-                            "left",
-                            7414,
-                            2472,
-                            "linear",
-                            "${bg_mountain_2}",
-                            '900px',
-                            '605px'
-                        ],
-                        [
-                            "eid46",
-                            "left",
-                            9886,
-                            2472,
-                            "linear",
-                            "${bg_mountain_2}",
-                            '605px',
-                            '-333px'
-                        ],
-                        [
-                            "eid239",
-                            "opacity",
-                            15514,
-                            486,
-                            "linear",
-                            "${bttn_again}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid14",
-                            "left",
-                            100,
-                            14414,
-                            "linear",
-                            "${bg_sky2}",
-                            '0px',
-                            '-1176px'
                         ],
                         [
                             "eid129",
@@ -836,24 +910,24 @@
                             '-308px'
                         ],
                         [
-                            "eid29",
-                            "display",
-                            5000,
-                            0,
+                            "eid272",
+                            "opacity",
+                            100,
+                            400,
                             "linear",
-                            "${bg_city}",
-                            'block',
-                            'none'
+                            "${text_scroll}",
+                            '1',
+                            '0'
                         ],
                         [
-                            "eid28",
+                            "eid276",
                             "left",
                             100,
-                            4900,
+                            4810,
                             "linear",
-                            "${bg_city}",
-                            '-49px',
-                            '-580px'
+                            "${gr_snowfall}",
+                            '0px',
+                            '-791px'
                         ],
                         [
                             "eid185",
@@ -926,34 +1000,34 @@
                             'none'
                         ],
                         [
-                            "eid53",
+                            "eid224",
+                            "left",
+                            8500,
+                            1500,
+                            "linear",
+                            "${gr_boat_4}",
+                            '984px',
+                            '427px'
+                        ],
+                        [
+                            "eid225",
+                            "left",
+                            10000,
+                            1500,
+                            "linear",
+                            "${gr_boat_4}",
+                            '427px',
+                            '-36px'
+                        ],
+                        [
+                            "eid61",
                             "left",
                             100,
-                            2400,
+                            1900,
                             "linear",
-                            "${mg_buildings}",
-                            '32px',
-                            '-393px'
-                        ],
-                        [
-                            "eid189",
-                            "left",
-                            9886,
-                            2314,
-                            "linear",
-                            "${bg_oceanCopy}",
-                            '900px',
-                            '0px'
-                        ],
-                        [
-                            "eid194",
-                            "left",
-                            12200,
-                            2393,
-                            "linear",
-                            "${bg_oceanCopy}",
-                            '0px',
-                            '-897px'
+                            "${fg_city_side}",
+                            '580px',
+                            '-427px'
                         ],
                         [
                             "eid200",
@@ -976,24 +1050,24 @@
                             '-479px'
                         ],
                         [
-                            "eid274",
-                            "opacity",
-                            0,
-                            0,
+                            "eid189",
+                            "left",
+                            9886,
+                            2314,
                             "linear",
-                            "${bttn_fly}",
-                            '1',
-                            '1'
+                            "${bg_oceanCopy}",
+                            '900px',
+                            '0px'
                         ],
                         [
-                            "eid269",
-                            "opacity",
-                            100,
-                            400,
+                            "eid194",
+                            "left",
+                            12200,
+                            2393,
                             "linear",
-                            "${bttn_fly}",
-                            '1',
-                            '0'
+                            "${bg_oceanCopy}",
+                            '0px',
+                            '-897px'
                         ],
                         [
                             "eid66",
@@ -1016,6 +1090,26 @@
                             '-934px'
                         ],
                         [
+                            "eid94",
+                            "left",
+                            7500,
+                            2463,
+                            "linear",
+                            "${mg_st_water}",
+                            '902px',
+                            '-79px'
+                        ],
+                        [
+                            "eid113",
+                            "left",
+                            9963,
+                            2287,
+                            "linear",
+                            "${mg_st_water}",
+                            '-79px',
+                            '-901px'
+                        ],
+                        [
                             "eid241",
                             "display",
                             0,
@@ -1034,26 +1128,6 @@
                             "${bttn_restart2}",
                             'none',
                             'block'
-                        ],
-                        [
-                            "eid103",
-                            "left",
-                            9542,
-                            458,
-                            "linear",
-                            "${fg_st_sand_2}",
-                            '929px',
-                            '635px'
-                        ],
-                        [
-                            "eid111",
-                            "left",
-                            10000,
-                            1500,
-                            "linear",
-                            "${fg_st_sand_2}",
-                            '635px',
-                            '-265px'
                         ],
                         [
                             "eid153",
@@ -1106,24 +1180,44 @@
                             'block'
                         ],
                         [
-                            "eid198",
+                            "eid32",
                             "left",
-                            153,
-                            14361,
+                            2587,
+                            2536,
                             "linear",
-                            "${gr_plane}",
-                            '190px',
-                            '666px'
+                            "${bg_mountain}",
+                            '900px',
+                            '436px'
                         ],
                         [
-                            "eid262",
-                            "opacity",
-                            100,
-                            400,
+                            "eid36",
+                            "left",
+                            5123,
+                            2214,
                             "linear",
-                            "${gr_banner}",
-                            '1',
-                            '0'
+                            "${bg_mountain}",
+                            '436px',
+                            '-467px'
+                        ],
+                        [
+                            "eid220",
+                            "left",
+                            8500,
+                            1500,
+                            "linear",
+                            "${gr_boat_3}",
+                            '905px',
+                            '195px'
+                        ],
+                        [
+                            "eid222",
+                            "left",
+                            10000,
+                            1000,
+                            "linear",
+                            "${gr_boat_3}",
+                            '195px',
+                            '-57px'
                         ],
                         [
                             "eid159",
@@ -1156,44 +1250,44 @@
                             '548px'
                         ],
                         [
-                            "eid32",
-                            "left",
-                            2587,
-                            2536,
+                            "eid262",
+                            "opacity",
+                            100,
+                            400,
                             "linear",
-                            "${bg_mountain}",
-                            '900px',
-                            '436px'
+                            "${gr_banner}",
+                            '1',
+                            '0'
                         ],
                         [
-                            "eid36",
+                            "eid198",
                             "left",
-                            5123,
-                            2214,
+                            153,
+                            14361,
                             "linear",
-                            "${bg_mountain}",
-                            '436px',
-                            '-467px'
+                            "${gr_plane}",
+                            '190px',
+                            '666px'
                         ],
                         [
-                            "eid94",
+                            "eid103",
                             "left",
-                            7500,
-                            2463,
+                            9542,
+                            458,
                             "linear",
-                            "${mg_st_water}",
-                            '902px',
-                            '-79px'
+                            "${fg_st_sand_2}",
+                            '929px',
+                            '635px'
                         ],
                         [
-                            "eid113",
+                            "eid111",
                             "left",
-                            9963,
-                            2287,
+                            10000,
+                            1500,
                             "linear",
-                            "${mg_st_water}",
-                            '-79px',
-                            '-901px'
+                            "${fg_st_sand_2}",
+                            '635px',
+                            '-265px'
                         ],
                         [
                             "eid209",
@@ -1226,34 +1320,34 @@
                             'none'
                         ],
                         [
-                            "eid61",
+                            "eid274",
+                            "opacity",
+                            0,
+                            0,
+                            "linear",
+                            "${bttn_fly}",
+                            '1',
+                            '1'
+                        ],
+                        [
+                            "eid269",
+                            "opacity",
+                            100,
+                            400,
+                            "linear",
+                            "${bttn_fly}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid53",
                             "left",
                             100,
-                            1900,
+                            2400,
                             "linear",
-                            "${fg_city_side}",
-                            '580px',
-                            '-427px'
-                        ],
-                        [
-                            "eid224",
-                            "left",
-                            8500,
-                            1500,
-                            "linear",
-                            "${gr_boat_4}",
-                            '984px',
-                            '427px'
-                        ],
-                        [
-                            "eid225",
-                            "left",
-                            10000,
-                            1500,
-                            "linear",
-                            "${gr_boat_4}",
-                            '427px',
-                            '-36px'
+                            "${mg_buildings}",
+                            '32px',
+                            '-393px'
                         ],
                         [
                             "eid132",
@@ -1266,52 +1360,22 @@
                             '-99px'
                         ],
                         [
-                            "eid272",
-                            "opacity",
+                            "eid14",
+                            "left",
                             100,
-                            400,
+                            14414,
                             "linear",
-                            "${text_scroll}",
-                            '1',
-                            '0'
+                            "${bg_sky2}",
+                            '0px',
+                            '-1174px'
                         ],
                         [
-                            "eid210",
+                            "eid179",
                             "display",
-                            0,
+                            153,
                             0,
                             "linear",
-                            "${gr_red_bird}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid202",
-                            "display",
-                            3911,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid203",
-                            "display",
-                            5123,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
-                            'block',
-                            'block'
-                        ],
-                        [
-                            "eid204",
-                            "display",
-                            6105,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
+                            "${btn_swipe_left}",
                             'block',
                             'none'
                         ],
@@ -1336,44 +1400,44 @@
                             '-1170px'
                         ],
                         [
-                            "eid216",
-                            "left",
-                            8856,
-                            1144,
+                            "eid231",
+                            "opacity",
+                            14514,
+                            1000,
                             "linear",
-                            "${gr_boat_2}",
-                            '907px',
-                            '281px'
+                            "${gr_signatures}",
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid218",
-                            "left",
-                            10000,
-                            500,
+                            "eid41",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${gr_boat_2}",
-                            '281px',
-                            '-114px'
+                            "${bg_mountain_2}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid88",
-                            "left",
-                            4250,
-                            880,
+                            "eid38",
+                            "display",
+                            7414,
+                            0,
                             "linear",
-                            "${mg_cr_water_hills2}",
-                            '913px',
-                            '-173px'
+                            "${bg_mountain_2}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid86",
-                            "left",
-                            5130,
-                            1133,
+                            "eid44",
+                            "display",
+                            12357,
+                            0,
                             "linear",
-                            "${mg_cr_water_hills2}",
-                            '-173px',
-                            '-1170px'
+                            "${bg_mountain_2}",
+                            'block',
+                            'none'
                         ]
                     ]
                 }
@@ -1430,21 +1494,21 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'bg_sky_left2',
                             rect: ['0px', '0px', '692px', '400px', 'auto', 'auto'],
+                            id: 'bg_sky_left2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_left.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'bg_sky_center2',
                             rect: ['691px', '0', '692px', '400px', 'auto', 'auto'],
+                            id: 'bg_sky_center2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_center.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'bg_sky_right',
                             rect: ['1382px', '0', '692px', '400px', 'auto', 'auto'],
+                            id: 'bg_sky_right',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/bg_sky_right.jpg', '0px', '0px']
                         }
                     ],
@@ -1472,9 +1536,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
-                            id: 'bttn_next',
                             type: 'image',
+                            id: 'bttn_next',
+                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bttn_next.png', '0px', '0px']
                         }
                     ],
@@ -1502,10 +1566,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
                             overflow: 'visible',
                             id: 'bttn_prev',
-                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/bttn_prev.png', '0px', '0px']
                         }
                     ],
@@ -1533,9 +1597,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '71px', '18px', 'auto', 'auto'],
-                            id: 'bttn_fly',
                             type: 'image',
+                            id: 'bttn_fly',
+                            rect: ['0px', '0px', '71px', '18px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bttn_fly.png', '0px', '0px']
                         }
                     ],
@@ -1563,9 +1627,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '216px', '34px', 'auto', 'auto'],
-                            id: 'collection',
                             type: 'image',
+                            id: 'collection',
+                            rect: ['0px', '0px', '216px', '34px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/collection.png', '0px', '0px']
                         }
                     ],
@@ -1593,22 +1657,22 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['757', '63', null, null, 'auto', 'auto'],
                             id: 'cloud2',
                             symbolName: 'cloud',
-                            rect: ['757', '63', null, null, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: ['317px', '79px', null, null, 'auto', 'auto'],
                             id: 'cloud3',
                             symbolName: 'cloud',
-                            rect: ['317px', '79px', null, null, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: ['-14px', '20px', null, null, 'auto', 'auto'],
                             id: 'cloud4',
                             symbolName: 'cloud',
-                            rect: ['-14px', '20px', null, null, 'auto', 'auto']
+                            type: 'rect'
                         }
                     ],
                     style: {
@@ -1635,9 +1699,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'gr_cloud',
                             rect: ['0px', '0px', '138px', '55px', 'auto', 'auto'],
+                            id: 'gr_cloud',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gr_cloud.png', '0px', '0px']
                         }
                     ],
@@ -1665,16 +1729,16 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['71px', '33px', '88', '35', 'auto', 'auto'],
                             id: 'cloud_med',
                             symbolName: 'cloud_med',
-                            rect: ['71px', '33px', '88', '35', 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: ['572', '33', null, null, 'auto', 'auto'],
                             id: 'cloud_med2',
                             symbolName: 'cloud_med',
-                            rect: ['572', '33', null, null, 'auto', 'auto']
+                            type: 'rect'
                         }
                     ],
                     style: {
@@ -1701,9 +1765,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'clouds_med',
                             rect: ['0px', '0px', '88px', '35px', 'auto', 'auto'],
+                            id: 'clouds_med',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/clouds_med.png', '0px', '0px']
                         }
                     ],
@@ -1731,9 +1795,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '72px', '18px', 'auto', 'auto'],
-                            id: 'bttn_again',
                             type: 'image',
+                            id: 'bttn_again',
+                            rect: ['0px', '0px', '72px', '18px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bttn_again.png', '0px', '0px']
                         }
                     ],
@@ -1761,9 +1825,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '44px', '15px', 'auto', 'auto'],
-                            id: 'bttn_restart',
                             type: 'image',
+                            id: 'bttn_restart',
+                            rect: ['0px', '0px', '44px', '15px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/bttn_restart.png', '0px', '0px']
                         }
                     ],
