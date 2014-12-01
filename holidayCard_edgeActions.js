@@ -49,19 +49,9 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_next}", "touchstart", function(sym, e) {
-         // insert code to be run when a user touches the object (for touch devices only)
-         sym.play();
+      
 
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${bttn_next}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play();
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${bttn_prev2}", "touchstart", function(sym, e) {
          sym.playReverse();
@@ -110,29 +100,11 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_fly}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play();
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_fly}", "touchstart", function(sym, e) {
-         // insert code for mouse click here
-         sym.play();
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${bttn_collection}", "click", function(sym, e) {
-         // insert code for mouse click here
-         // Navigate to a new URL in the current window
-         // (replace "_self" with appropriate target attribute)
-         window.open("http://www.amresorts.com", "_self");
-         
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${bttn_again}", "click", function(sym, e) {
          sym.play(0);
@@ -140,13 +112,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_restart2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${bttn_restart}", "click", function(sym, e) {
          sym.play(0);
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_restart2}", "touchstart", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${bttn_restart}", "touchstart", function(sym, e) {
          sym.play(0);
 
       });
@@ -154,6 +126,42 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${bttn_again}", "touchstart", function(sym, e) {
          sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_fly}", "click", function(sym, e) {
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_fly}", "touchstart", function(sym, e) {
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${collection}", "click", function(sym, e) {
+         window.open("http://amresorts.com", "_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${collection}", "touchstart", function(sym, e) {
+         window.open("http://amresorts.com", "_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_next2}", "click", function(sym, e) {
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_next2}", "touchstart", function(sym, e) {
+         sym.play();
 
       });
       //Edge binding end
