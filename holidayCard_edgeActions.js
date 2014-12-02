@@ -53,25 +53,15 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_prev2}", "touchstart", function(sym, e) {
-         sym.playReverse();
-
-      });
-      //Edge binding end
-
       Symbol.bindElementAction(compId, symbolName, "${bttn_prev}", "touchstart", function(sym, e) {
-         // insert code to be run when a user touches the object (for touch devices only)
          sym.playReverse();
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_prev}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.playReverse();
+      
 
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${btn_swipe_left}", "swipeleft", function(sym, e) {
          // insert code to be run when a swipeleft event occurs on an element
@@ -106,29 +96,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_again}", "click", function(sym, e) {
-         sym.play(0);
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_restart}", "click", function(sym, e) {
-         sym.play(0);
+      
 
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${bttn_restart}", "touchstart", function(sym, e) {
-         sym.play(0);
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${bttn_again}", "touchstart", function(sym, e) {
-         sym.play(0);
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${bttn_fly}", "click", function(sym, e) {
          sym.play();
@@ -154,14 +128,45 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_next2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${bttn_next}", "click", function(sym, e) {
          sym.play();
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${bttn_next2}", "touchstart", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${bttn_next}", "touchstart", function(sym, e) {
          sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_restart}", "click", function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_restart}", "touchstart", function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_again}", "click", function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_again}", "touchstart", function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${bttn_prev}", "click", function(sym, e) {
+         // insert code for mouse click here
+         sym.playReverse();
 
       });
       //Edge binding end
@@ -184,45 +189,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
    })("bg_sky");
    //Edge symbol end:'bg_sky'
-
-   //=========================================================
-   
-   //Edge symbol: 'bttn_next'
-   (function(symbolName) {   
-   
-   })("bttn_next");
-   //Edge symbol end:'bttn_next'
-
-   //=========================================================
-   
-   //Edge symbol: 'bttn_prev'
-   (function(symbolName) {   
-   
-      Symbol.bindElementAction(compId, symbolName, "${bttn_prev}", "touchstart", function(sym, e) {
-         // insert code to be run when a user touches the object (for touch devices only)
-         sym.playReverse();
-
-      });
-      //Edge binding end
-
-   })("bttn_prev");
-   //Edge symbol end:'bttn_prev'
-
-   //=========================================================
-   
-   //Edge symbol: 'bttn_fly'
-   (function(symbolName) {   
-   
-   })("bttn_fly");
-   //Edge symbol end:'bttn_fly'
-
-   //=========================================================
-   
-   //Edge symbol: 'bttn_collection'
-   (function(symbolName) {   
-   
-   })("bttn_collection");
-   //Edge symbol end:'bttn_collection'
 
    //=========================================================
    
@@ -343,22 +309,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("cloud_med");
    //Edge symbol end:'cloud_med'
-
-   //=========================================================
-   
-   //Edge symbol: 'bttn_again'
-   (function(symbolName) {   
-   
-   })("bttn_again");
-   //Edge symbol end:'bttn_again'
-
-   //=========================================================
-   
-   //Edge symbol: 'bttn_restart'
-   (function(symbolName) {   
-   
-   })("bttn_restart");
-   //Edge symbol end:'bttn_restart'
 
    //=========================================================
    

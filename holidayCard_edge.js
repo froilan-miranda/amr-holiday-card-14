@@ -283,35 +283,33 @@
                             fill: ["rgba(0,0,0,0)",im+"bottom_bar.png",'0px','0px']
                         },
                         {
-                            id: 'bttn_next2',
+                            id: 'bttn_next',
+                            display: 'block',
                             type: 'image',
-                            rect: ['866px', '415px', '15px', '20px', 'auto', 'auto'],
+                            rect: ['826px', '415px', '15px', '20px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"bttn_next.png",'0px','0px']
                         },
                         {
                             id: 'bttn_prev',
-                            symbolName: 'bttn_prev',
                             display: 'none',
-                            type: 'rect',
-                            rect: ['822', '417', '12', '16', 'auto', 'auto'],
-                            cursor: 'pointer',
-                            userClass: "touchElement"
+                            type: 'image',
+                            rect: ['780px', '415px', '15px', '20px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"bttn_prev.png",'0px','0px']
                         },
                         {
                             id: 'navigate',
                             display: 'none',
                             type: 'text',
-                            rect: ['606px', '419px', '198px', '16px', 'auto', 'auto'],
+                            rect: ['569px', '417px', '198px', '16px', 'auto', 'auto'],
                             text: "Navigate to your next destination",
                             font: ['Verdana, Geneva, sans-serif', [11, "px"], "rgba(133,133,133,1.00)", "normal", "none", "", "break-word", "normal"]
                         },
                         {
                             id: 'bttn_restart',
-                            symbolName: 'bttn_restart',
                             display: 'none',
-                            type: 'rect',
-                            rect: ['840', '418', '44', '15', 'auto', 'auto'],
-                            cursor: 'pointer'
+                            type: 'image',
+                            rect: ['806px', '409px', '86px', '31px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"bttn_restart.png",'0px','0px']
                         },
                         {
                             id: 'btn_swipe_left',
@@ -342,6 +340,7 @@
                         },
                         {
                             id: 'bttn_fly',
+                            display: 'block',
                             type: 'image',
                             rect: ['174px', '160px', '101px', '29px', 'auto', 'auto'],
                             cursor: 'pointer',
@@ -350,11 +349,11 @@
                         },
                         {
                             id: 'bttn_again',
-                            symbolName: 'bttn_again',
-                            type: 'rect',
-                            rect: ['418', '241', '72', '18', 'auto', 'auto'],
-                            cursor: 'pointer',
-                            opacity: '0'
+                            display: 'none',
+                            type: 'image',
+                            rect: ['402px', '234px', '104px', '32px', 'auto', 'auto'],
+                            opacity: '0',
+                            fill: ["rgba(0,0,0,0)",im+"bttn_again.png",'0px','0px']
                         },
                         {
                             id: 'background_audio',
@@ -426,24 +425,14 @@
                             'none'
                         ],
                         [
-                            "eid62",
+                            "eid61",
                             "left",
-                            799,
-                            1951,
+                            100,
+                            1900,
                             "linear",
-                            "${fg_city_sideCopy}",
-                            '917px',
+                            "${fg_city_side}",
+                            '580px',
                             '-427px'
-                        ],
-                        [
-                            "eid242",
-                            "left",
-                            2750,
-                            2312,
-                            "linear",
-                            "${fg_city_sideCopy}",
-                            '-427px',
-                            '-433px'
                         ],
                         [
                             "eid49",
@@ -496,54 +485,54 @@
                             '-344px'
                         ],
                         [
-                            "eid276",
-                            "left",
-                            100,
-                            4810,
+                            "eid29",
+                            "display",
+                            5000,
+                            0,
                             "linear",
-                            "${gr_snowfall}",
-                            '0px',
-                            '-791px'
+                            "${bg_city}",
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid14",
+                            "eid247",
                             "left",
-                            100,
-                            14414,
+                            3911,
+                            1212,
                             "linear",
-                            "${bg_sky2}",
-                            '0px',
-                            '-1174px'
-                        ],
-                        [
-                            "eid43",
-                            "left",
-                            7414,
-                            2472,
-                            "linear",
-                            "${bg_mountain_2}",
-                            '900px',
-                            '605px'
-                        ],
-                        [
-                            "eid46",
-                            "left",
-                            9886,
-                            2472,
-                            "linear",
-                            "${bg_mountain_2}",
-                            '605px',
-                            '-333px'
-                        ],
-                        [
-                            "eid136",
-                            "left",
-                            14070,
-                            444,
-                            "linear",
-                            "${mg_lc_rock_3}",
+                            "${gr_red_bird}",
                             '905px',
-                            '559px'
+                            '392px'
+                        ],
+                        [
+                            "eid249",
+                            "left",
+                            5123,
+                            982,
+                            "linear",
+                            "${gr_red_bird}",
+                            '392px',
+                            '-41px'
+                        ],
+                        [
+                            "eid272",
+                            "opacity",
+                            100,
+                            400,
+                            "linear",
+                            "${text_scroll}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid28",
+                            "left",
+                            100,
+                            4900,
+                            "linear",
+                            "${bg_city}",
+                            '-49px',
+                            '-580px'
                         ],
                         [
                             "eid252",
@@ -576,7 +565,17 @@
                             '-352px'
                         ],
                         [
-                            "eid166",
+                            "eid324",
+                            "display",
+                            500,
+                            0,
+                            "linear",
+                            "${bttn_fly}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid309",
                             "display",
                             0,
                             0,
@@ -586,7 +585,7 @@
                             'none'
                         ],
                         [
-                            "eid173",
+                            "eid310",
                             "display",
                             5046,
                             0,
@@ -596,7 +595,7 @@
                             'block'
                         ],
                         [
-                            "eid175",
+                            "eid311",
                             "display",
                             5186,
                             0,
@@ -606,7 +605,7 @@
                             'none'
                         ],
                         [
-                            "eid171",
+                            "eid312",
                             "display",
                             9936,
                             0,
@@ -616,7 +615,7 @@
                             'block'
                         ],
                         [
-                            "eid177",
+                            "eid313",
                             "display",
                             10053,
                             0,
@@ -626,7 +625,7 @@
                             'none'
                         ],
                         [
-                            "eid170",
+                            "eid314",
                             "display",
                             15514,
                             0,
@@ -654,6 +653,16 @@
                             "${fg_st_sand_1}",
                             '-276px',
                             '-487px'
+                        ],
+                        [
+                            "eid276",
+                            "left",
+                            100,
+                            4810,
+                            "linear",
+                            "${gr_snowfall}",
+                            '0px',
+                            '-791px'
                         ],
                         [
                             "eid291",
@@ -726,13 +735,23 @@
                             '-1000px'
                         ],
                         [
-                            "eid239",
+                            "eid231",
+                            "opacity",
+                            14514,
+                            1000,
+                            "linear",
+                            "${gr_signatures}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid321",
                             "opacity",
                             15514,
                             486,
                             "linear",
                             "${bttn_again}",
-                            '0',
+                            '0.000000',
                             '1'
                         ],
                         [
@@ -776,7 +795,7 @@
                             '-906px'
                         ],
                         [
-                            "eid241",
+                            "eid315",
                             "display",
                             0,
                             0,
@@ -786,7 +805,7 @@
                             'none'
                         ],
                         [
-                            "eid240",
+                            "eid316",
                             "display",
                             15514,
                             0,
@@ -826,44 +845,44 @@
                             'none'
                         ],
                         [
-                            "eid216",
-                            "left",
-                            8856,
-                            1144,
+                            "eid210",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${gr_boat_2}",
-                            '907px',
-                            '281px'
+                            "${gr_red_bird}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid218",
-                            "left",
-                            10000,
-                            500,
+                            "eid202",
+                            "display",
+                            3911,
+                            0,
                             "linear",
-                            "${gr_boat_2}",
-                            '281px',
-                            '-114px'
+                            "${gr_red_bird}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid28",
-                            "left",
-                            100,
-                            4900,
+                            "eid203",
+                            "display",
+                            5123,
+                            0,
                             "linear",
-                            "${bg_city}",
-                            '-49px',
-                            '-580px'
+                            "${gr_red_bird}",
+                            'block',
+                            'block'
                         ],
                         [
-                            "eid272",
-                            "opacity",
-                            100,
-                            400,
+                            "eid204",
+                            "display",
+                            6105,
+                            0,
                             "linear",
-                            "${text_scroll}",
-                            '1',
-                            '0'
+                            "${gr_red_bird}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid129",
@@ -886,32 +905,72 @@
                             '-308px'
                         ],
                         [
-                            "eid247",
+                            "eid136",
                             "left",
-                            3911,
-                            1212,
+                            14070,
+                            444,
                             "linear",
-                            "${gr_red_bird}",
+                            "${mg_lc_rock_3}",
                             '905px',
-                            '392px'
+                            '559px'
                         ],
                         [
-                            "eid249",
+                            "eid14",
                             "left",
-                            5123,
-                            982,
+                            100,
+                            14414,
                             "linear",
-                            "${gr_red_bird}",
-                            '392px',
-                            '-41px'
+                            "${bg_sky2}",
+                            '0px',
+                            '-1174px'
                         ],
                         [
-                            "eid29",
+                            "eid298",
                             "display",
-                            5000,
+                            120,
                             0,
                             "linear",
-                            "${bg_city}",
+                            "${bttn_next}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid299",
+                            "display",
+                            5046,
+                            0,
+                            "linear",
+                            "${bttn_next}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid300",
+                            "display",
+                            5186,
+                            0,
+                            "linear",
+                            "${bttn_next}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid301",
+                            "display",
+                            9936,
+                            0,
+                            "linear",
+                            "${bttn_next}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid302",
+                            "display",
+                            10053,
+                            0,
+                            "linear",
+                            "${bttn_next}",
                             'block',
                             'none'
                         ],
@@ -926,24 +985,24 @@
                             '-393px'
                         ],
                         [
-                            "eid189",
-                            "left",
-                            9886,
-                            2314,
+                            "eid322",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${bg_oceanCopy}",
-                            '900px',
-                            '0px'
+                            "${bttn_again}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid194",
-                            "left",
-                            12200,
-                            2393,
+                            "eid323",
+                            "display",
+                            15514,
+                            0,
                             "linear",
-                            "${bg_oceanCopy}",
-                            '0px',
-                            '-897px'
+                            "${bttn_again}",
+                            'none',
+                            'block'
                         ],
                         [
                             "eid200",
@@ -964,6 +1023,26 @@
                             "${fg_cr_sand_grass}",
                             '688px',
                             '-479px'
+                        ],
+                        [
+                            "eid189",
+                            "left",
+                            9886,
+                            2314,
+                            "linear",
+                            "${bg_oceanCopy}",
+                            '900px',
+                            '0px'
+                        ],
+                        [
+                            "eid194",
+                            "left",
+                            12200,
+                            2393,
+                            "linear",
+                            "${bg_oceanCopy}",
+                            '0px',
+                            '-897px'
                         ],
                         [
                             "eid296",
@@ -1206,14 +1285,24 @@
                             'none'
                         ],
                         [
-                            "eid61",
+                            "eid62",
                             "left",
-                            100,
-                            1900,
+                            799,
+                            1951,
                             "linear",
-                            "${fg_city_side}",
-                            '580px',
+                            "${fg_city_sideCopy}",
+                            '917px',
                             '-427px'
+                        ],
+                        [
+                            "eid242",
+                            "left",
+                            2750,
+                            2312,
+                            "linear",
+                            "${fg_city_sideCopy}",
+                            '-427px',
+                            '-433px'
                         ],
                         [
                             "eid224",
@@ -1246,44 +1335,24 @@
                             '-99px'
                         ],
                         [
-                            "eid210",
-                            "display",
-                            0,
-                            0,
+                            "eid43",
+                            "left",
+                            7414,
+                            2472,
                             "linear",
-                            "${gr_red_bird}",
-                            'none',
-                            'none'
+                            "${bg_mountain_2}",
+                            '900px',
+                            '605px'
                         ],
                         [
-                            "eid202",
-                            "display",
-                            3911,
-                            0,
+                            "eid46",
+                            "left",
+                            9886,
+                            2472,
                             "linear",
-                            "${gr_red_bird}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid203",
-                            "display",
-                            5123,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
-                            'block',
-                            'block'
-                        ],
-                        [
-                            "eid204",
-                            "display",
-                            6105,
-                            0,
-                            "linear",
-                            "${gr_red_bird}",
-                            'block',
-                            'none'
+                            "${bg_mountain_2}",
+                            '605px',
+                            '-333px'
                         ],
                         [
                             "eid179",
@@ -1316,14 +1385,24 @@
                             '-1170px'
                         ],
                         [
-                            "eid231",
-                            "opacity",
-                            14514,
-                            1000,
+                            "eid216",
+                            "left",
+                            8856,
+                            1144,
                             "linear",
-                            "${gr_signatures}",
-                            '0',
-                            '1'
+                            "${gr_boat_2}",
+                            '907px',
+                            '281px'
+                        ],
+                        [
+                            "eid218",
+                            "left",
+                            10000,
+                            500,
+                            "linear",
+                            "${gr_boat_2}",
+                            '281px',
+                            '-114px'
                         ],
                         [
                             "eid88",
@@ -1421,129 +1500,6 @@
                     style: {
                         '${symbolSelector}': {
                             rect: [null, null, '692px', '400px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "bttn_next": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
-                            id: 'bttn_next',
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/bttn_next.png', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, '12px', '16px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "bttn_prev": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            type: 'image',
-                            overflow: 'visible',
-                            id: 'bttn_prev',
-                            rect: ['0px', '0px', '12px', '16px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/bttn_prev.png', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, '12px', '16px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "bttn_fly": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            id: 'bttn_fly',
-                            type: 'image',
-                            rect: ['0px', '0px', '101px', '29px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/bttn_fly.png', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '101px', '29px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "bttn_collection": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            id: 'collection',
-                            type: 'image',
-                            rect: ['0px', '0px', '373px', '25px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/collection.png', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '373px', '25px']
                         }
                     }
                 },
@@ -1687,66 +1643,6 @@
                 },
                 timeline: {
                     duration: 93,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "bttn_again": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: ['0px', '0px', '72px', '18px', 'auto', 'auto'],
-                            id: 'bttn_again',
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/bttn_again.png', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, '72px', '18px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "bttn_restart": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: ['0px', '0px', '44px', '15px', 'auto', 'auto'],
-                            id: 'bttn_restart',
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/bttn_restart.png', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, '44px', '15px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
                     autoPlay: true,
                     data: [
 
