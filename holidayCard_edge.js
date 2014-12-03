@@ -150,7 +150,7 @@
                             id: 'mg_st_green_hill_1',
                             display: 'none',
                             type: 'image',
-                            rect: ['903px', '257px', '339px', '144px', 'auto', 'auto'],
+                            rect: ['903px', '265px', '339px', '136px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"mg_st_green_hill_1.png",'0px','0px']
                         },
                         {
@@ -647,14 +647,34 @@
                             'none'
                         ],
                         [
-                            "eid28",
-                            "left",
-                            100,
-                            4900,
+                            "eid364",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${bg_city}",
-                            '-49px',
-                            '-580px'
+                            "${mg_st_green_hill_2}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid352",
+                            "display",
+                            9354,
+                            0,
+                            "linear",
+                            "${mg_st_green_hill_2}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid351",
+                            "display",
+                            12500,
+                            0,
+                            "linear",
+                            "${mg_st_green_hill_2}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid330",
@@ -747,44 +767,44 @@
                             'none'
                         ],
                         [
-                            "eid363",
-                            "display",
-                            0,
-                            0,
+                            "eid190",
+                            "left",
+                            9786,
+                            2364,
                             "linear",
-                            "${mg_st_green_hill_1}",
-                            'none',
-                            'none'
+                            "${mg_lc_waterCopy}",
+                            '903px',
+                            '-99px'
                         ],
                         [
-                            "eid350",
-                            "display",
-                            7250,
-                            0,
+                            "eid192",
+                            "left",
+                            12150,
+                            2364,
                             "linear",
-                            "${mg_st_green_hill_1}",
-                            'none',
-                            'block'
+                            "${mg_lc_waterCopy}",
+                            '-99px',
+                            '-1000px'
                         ],
                         [
-                            "eid349",
-                            "display",
-                            10500,
-                            0,
+                            "eid216",
+                            "left",
+                            8856,
+                            1144,
                             "linear",
-                            "${mg_st_green_hill_1}",
-                            'block',
-                            'none'
+                            "${gr_boat_2}",
+                            '907px',
+                            '281px'
                         ],
                         [
-                            "eid231",
-                            "opacity",
-                            14514,
-                            1000,
+                            "eid218",
+                            "left",
+                            10000,
+                            500,
                             "linear",
-                            "${gr_signatures}",
-                            '0',
-                            '1'
+                            "${gr_boat_2}",
+                            '281px',
+                            '-114px'
                         ],
                         [
                             "eid395",
@@ -1114,7 +1134,7 @@
                             "linear",
                             "${mg_st_green_hill_1}",
                             '903px',
-                            '-204px'
+                            '-242px'
                         ],
                         [
                             "eid122",
@@ -1123,7 +1143,7 @@
                             500,
                             "linear",
                             "${mg_st_green_hill_1}",
-                            '-204px',
+                            '-242px',
                             '-344px'
                         ],
                         [
@@ -1427,32 +1447,32 @@
                             '-906px'
                         ],
                         [
-                            "eid362",
+                            "eid370",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${fg_st_sand_2}",
+                            "${gr_boat_3}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid348",
+                            "eid369",
                             "display",
-                            9542,
+                            8500,
                             0,
                             "linear",
-                            "${fg_st_sand_2}",
+                            "${gr_boat_3}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid347",
+                            "eid368",
                             "display",
-                            11500,
+                            11000,
                             0,
                             "linear",
-                            "${fg_st_sand_2}",
+                            "${gr_boat_3}",
                             'block',
                             'none'
                         ],
@@ -1497,34 +1517,24 @@
                             'none'
                         ],
                         [
-                            "eid370",
-                            "display",
-                            0,
-                            0,
+                            "eid200",
+                            "left",
+                            4910,
+                            213,
                             "linear",
-                            "${gr_boat_3}",
-                            'none',
-                            'none'
+                            "${fg_cr_sand_grass}",
+                            '901px',
+                            '688px'
                         ],
                         [
-                            "eid369",
-                            "display",
-                            8500,
-                            0,
+                            "eid201",
+                            "left",
+                            5123,
+                            982,
                             "linear",
-                            "${gr_boat_3}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid368",
-                            "display",
-                            11000,
-                            0,
-                            "linear",
-                            "${gr_boat_3}",
-                            'block',
-                            'none'
+                            "${fg_cr_sand_grass}",
+                            '688px',
+                            '-479px'
                         ],
                         [
                             "eid325",
@@ -1537,24 +1547,24 @@
                             'none'
                         ],
                         [
-                            "eid190",
-                            "left",
-                            9786,
-                            2364,
+                            "eid377",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${mg_lc_waterCopy}",
-                            '903px',
-                            '-99px'
+                            "${mg_lc_water}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid192",
-                            "left",
+                            "eid378",
+                            "display",
                             12150,
-                            2364,
+                            0,
                             "linear",
-                            "${mg_lc_waterCopy}",
-                            '-99px',
-                            '-1000px'
+                            "${mg_lc_water}",
+                            'none',
+                            'block'
                         ],
                         [
                             "eid129",
@@ -1577,14 +1587,34 @@
                             '-308px'
                         ],
                         [
-                            "eid262",
-                            "opacity",
-                            100,
-                            400,
+                            "eid363",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${gr_banner}",
-                            '1',
-                            '0'
+                            "${mg_st_green_hill_1}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid350",
+                            "display",
+                            7250,
+                            0,
+                            "linear",
+                            "${mg_st_green_hill_1}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid349",
+                            "display",
+                            10500,
+                            0,
+                            "linear",
+                            "${mg_st_green_hill_1}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid397",
@@ -1707,24 +1737,14 @@
                             'block'
                         ],
                         [
-                            "eid200",
-                            "left",
-                            4910,
-                            213,
+                            "eid328",
+                            "display",
+                            2000,
+                            0,
                             "linear",
-                            "${fg_cr_sand_grass}",
-                            '901px',
-                            '688px'
-                        ],
-                        [
-                            "eid201",
-                            "left",
-                            5123,
-                            982,
-                            "linear",
-                            "${fg_cr_sand_grass}",
-                            '688px',
-                            '-479px'
+                            "${fg_city_side}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid189",
@@ -1747,26 +1767,6 @@
                             '-897px'
                         ],
                         [
-                            "eid377",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${mg_lc_water}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid378",
-                            "display",
-                            12150,
-                            0,
-                            "linear",
-                            "${mg_lc_water}",
-                            'none',
-                            'block'
-                        ],
-                        [
                             "eid382",
                             "display",
                             0,
@@ -1785,6 +1785,36 @@
                             "${mg_lc_waterCopy}",
                             'none',
                             'block'
+                        ],
+                        [
+                            "eid362",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${fg_st_sand_2}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid348",
+                            "display",
+                            9542,
+                            0,
+                            "linear",
+                            "${fg_st_sand_2}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid347",
+                            "display",
+                            11500,
+                            0,
+                            "linear",
+                            "${fg_st_sand_2}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid103",
@@ -1807,14 +1837,24 @@
                             '-265px'
                         ],
                         [
-                            "eid198",
+                            "eid153",
                             "left",
-                            153,
-                            14361,
+                            1250,
+                            2119,
                             "linear",
-                            "${gr_plane}",
-                            '190px',
-                            '666px'
+                            "${mg_cr_green_hill_3}",
+                            '907px',
+                            '520px'
+                        ],
+                        [
+                            "eid156",
+                            "left",
+                            3369,
+                            2823,
+                            "linear",
+                            "${mg_cr_green_hill_3}",
+                            '520px',
+                            '-415px'
                         ],
                         [
                             "eid247",
@@ -1957,54 +1997,24 @@
                             'none'
                         ],
                         [
-                            "eid153",
+                            "eid198",
                             "left",
-                            1250,
-                            2119,
+                            153,
+                            14361,
                             "linear",
-                            "${mg_cr_green_hill_3}",
-                            '907px',
-                            '520px'
+                            "${gr_plane}",
+                            '190px',
+                            '666px'
                         ],
                         [
-                            "eid156",
+                            "eid28",
                             "left",
-                            3369,
-                            2823,
+                            100,
+                            4900,
                             "linear",
-                            "${mg_cr_green_hill_3}",
-                            '520px',
-                            '-415px'
-                        ],
-                        [
-                            "eid364",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${mg_st_green_hill_2}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid352",
-                            "display",
-                            9354,
-                            0,
-                            "linear",
-                            "${mg_st_green_hill_2}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid351",
-                            "display",
-                            12500,
-                            0,
-                            "linear",
-                            "${mg_st_green_hill_2}",
-                            'block',
-                            'none'
+                            "${bg_city}",
+                            '-49px',
+                            '-580px'
                         ],
                         [
                             "eid53",
@@ -2017,34 +2027,24 @@
                             '-393px'
                         ],
                         [
-                            "eid328",
-                            "display",
-                            2000,
-                            0,
+                            "eid296",
+                            "opacity",
+                            100,
+                            400,
                             "linear",
-                            "${fg_city_side}",
-                            'block',
-                            'none'
+                            "${bttn_fly}",
+                            '1',
+                            '0'
                         ],
                         [
-                            "eid216",
-                            "left",
-                            8856,
-                            1144,
+                            "eid231",
+                            "opacity",
+                            14514,
+                            1000,
                             "linear",
-                            "${gr_boat_2}",
-                            '907px',
-                            '281px'
-                        ],
-                        [
-                            "eid218",
-                            "left",
-                            10000,
-                            500,
-                            "linear",
-                            "${gr_boat_2}",
-                            '281px',
-                            '-114px'
+                            "${gr_signatures}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid361",
@@ -2097,12 +2097,12 @@
                             '-1170px'
                         ],
                         [
-                            "eid296",
+                            "eid262",
                             "opacity",
                             100,
                             400,
                             "linear",
-                            "${bttn_fly}",
+                            "${gr_banner}",
                             '1',
                             '0'
                         ],
